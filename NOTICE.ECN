@@ -1,0 +1,22 @@
+NOTICE.ECN
+==========
+
+This product is an Earth Care Network (ECN) fork of upstream open-source software.
+
+CRM (internal slug: ecn-crm)
+----------------------------
+- Upstream project: Twenty CRM
+- Upstream repository: https://github.com/twentyhq/twenty
+- Upstream tag / commit for this line: twenty/v2.27.0 (66e0f620bcfd85daadab293d9cf3660ec2114f4b)
+- Upstream license: see LICENSE in this repository (preserved unchanged)
+
+ECN modifications (branding, packaging, integration hooks) are copyright Earth
+Care Network contributors and are distributed under the same AGPL terms as
+upstream unless a file states otherwise.
+
+Source availability
+-------------------
+When this modified software is offered as a network service in production,
+Corresponding Source is published per AGPL §13. Until counsel green-lights the
+public flip, this repository remains private; production launch requires the
+public source publication path described in ECN V4 T3 lock docs.
