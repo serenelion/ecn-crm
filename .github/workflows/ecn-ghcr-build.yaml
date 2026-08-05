@@ -1,0 +1,58 @@
+name: ECN GHCR build
+
+# Builds the customer-facing CRM image (server + frontend) and pushes to
+# ghcr.io/serenelion/ecn-crm. Tag scheme: <upstream-version>-ecn<fork-rev>.
+
+on:
+  workflow_dispatch:
+    inputs:
+      image_tag:
+        description: "Image tag (e.g. v2.27.0-ecn0)"
+        required: true
+        default: "v2.27.0-ecn0"
+      dockerfile_target:
+        description: "Dockerfile target"
+        required: true
+        default: "twenty"
+
+permissions:
+  contents: read
+  packages: write
+
+defaults:
+  run:
+    shell: bash --noprofile --norc -euo pipefail {0}
+
+jobs:
+  build-and-push:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Docker Buildx
+        uses: docker/setup-buildx-action@v3
+
+      - name: Log in to GHCR
+        uses: docker/login-action@v3
+        with:
+          registry: ghcr.io
+          username: ${{ github.actor }}
+          password: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Build and push
+        uses: docker/build-push-action@v6
+        with:
+          context: .
+          file: packages/twenty-docker/twenty/Dockerfile
+          target: ${{ inputs.dockerfile_target }}
+          push: true
+          tags: |
+            ghcr.io/serenelion/ecn-crm:${{ inputs.image_tag }}
+          labels: |
+            org.opencontainers.image.source=https://github.com/serenelion/ecn-crm
+            org.opencontainers.image.description=ECN CRM image (ecn-crm)
+            org.opencontainers.image.revision=${{ github.sha }}
+          cache-from: type=gha
+          cache-to: type=gha,mode=max
