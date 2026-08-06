@@ -121,20 +121,20 @@ export const SETTINGS_COMPOSITE_FIELD_TYPE_CONFIGS = {
     ],
     exampleValues: [
       {
-        primaryEmail: 'tim@twenty.com',
+        primaryEmail: 'tim@earthcare.network',
         additionalEmails: [
-          'tim@twenty.com',
-          'timapple@twenty.com',
-          'johnappletim@twenty.com',
+          'tim@earthcare.network',
+          'timapple@earthcare.network',
+          'johnappletim@earthcare.network',
         ],
       },
       {
-        primaryEmail: 'jane@twenty.com',
-        additionalEmails: ['jane@twenty.com', 'jane.doe@twenty.com'],
+        primaryEmail: 'jane@earthcare.network',
+        additionalEmails: ['jane@earthcare.network', 'jane.doe@earthcare.network'],
       },
       {
-        primaryEmail: 'john@twenty.com',
-        additionalEmails: ['john.doe@twenty.com'],
+        primaryEmail: 'john@earthcare.network',
+        additionalEmails: ['john.doe@earthcare.network'],
       },
     ],
     category: 'Basic',
@@ -179,14 +179,14 @@ export const SETTINGS_COMPOSITE_FIELD_TYPE_CONFIGS = {
     ],
     exampleValues: [
       {
-        primaryLinkUrl: 'twenty.com',
+        primaryLinkUrl: 'earthcare.network',
         primaryLinkLabel: '',
-        secondaryLinks: [{ url: 'twenty.com', label: 'Twenty' }],
+        secondaryLinks: [{ url: 'earthcare.network', label: 'ECN' }],
       },
       {
-        primaryLinkUrl: 'github.com/twentyhq/twenty',
-        primaryLinkLabel: 'Twenty Repo',
-        secondaryLinks: [{ url: 'twenty.com', label: '' }],
+        primaryLinkUrl: 'github.com/serenelion/ecn-crm',
+        primaryLinkLabel: 'ECN CRM Repo',
+        secondaryLinks: [{ url: 'earthcare.network', label: '' }],
       },
       {
         primaryLinkUrl: 'react.dev',

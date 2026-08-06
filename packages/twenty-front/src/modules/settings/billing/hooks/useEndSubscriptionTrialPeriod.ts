@@ -159,7 +159,7 @@ export const useEndSubscriptionTrialPeriod = () => {
       return { success: true, hasPaymentMethod: true };
     } catch {
       enqueueErrorSnackBar({
-        message: t`Error while ending trial period. Please contact Twenty team.`,
+        message: t`Error while ending trial period. Please contact support.`,
       });
       return { success: false };
     } finally {
