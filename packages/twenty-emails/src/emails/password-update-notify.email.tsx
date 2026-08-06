@@ -53,7 +53,7 @@ export const PasswordUpdateNotifyEmail = ({
 PasswordUpdateNotifyEmail.PreviewProps = {
   userName: 'John Doe',
   email: 'john.doe@example.com',
-  link: 'https://app.twenty.com',
+  link: 'https://crm.earthcare.network',
   locale: 'en',
 } as PasswordUpdateNotifyEmailProps;
 
