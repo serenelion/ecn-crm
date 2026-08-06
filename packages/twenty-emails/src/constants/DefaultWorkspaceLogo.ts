@@ -1,2 +1,3 @@
+// Interim ECN mark until dedicated CRM workspace logo ships.
 export const DEFAULT_WORKSPACE_LOGO =
-  'https://twentyhq.github.io/placeholder-images/workspaces/twenty-logo.png';
+  'https://www.earthcare.network/favicon.ico';
