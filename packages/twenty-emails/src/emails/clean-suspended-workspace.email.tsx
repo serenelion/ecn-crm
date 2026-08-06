@@ -46,7 +46,7 @@ export const CleanSuspendedWorkspaceEmail = ({
       </MainText>
       <br />
       <CallToAction
-        href="https://app.twenty.com/"
+        href="https://crm.earthcare.network/"
         value={i18n._('Start a new workspace')}
       />
       <br />
