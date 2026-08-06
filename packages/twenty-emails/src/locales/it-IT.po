@@ -84,14 +84,14 @@ msgid "Disabled"
 msgstr "Disabilitato"
 
 #. js-lingui-explicit-id
+#: src/components/Footer.tsx
+msgid "Earth Care Network — CRM (AGPL)"
+msgstr ""
+
+#. js-lingui-explicit-id
 #: src/emails/server-admin-access-changed.email.tsx
 msgid "Enabled"
 msgstr "Abilitato"
-
-#. js-lingui-explicit-id
-#: src/components/Footer.tsx
-msgid "Github"
-msgstr "Github"
 
 #. js-lingui-explicit-id
 #: src/emails/warn-suspended-workspace.email.tsx
@@ -185,8 +185,8 @@ msgstr "Riattiva workspace"
 
 #. js-lingui-explicit-id
 #: src/components/Footer.tsx
-msgid "Read Twenty's user guide"
-msgstr "Leggi la guida utente di Twenty"
+msgid "Read Earth Care Network documentation"
+msgstr ""
 
 #. js-lingui-explicit-id
 #: src/emails/password-reset-link.email.tsx
@@ -200,8 +200,8 @@ msgstr "Reimposta la tua password 🗝"
 
 #. js-lingui-explicit-id
 #: src/components/Footer.tsx
-msgid "San Francisco / Paris"
-msgstr "San Francisco / Parigi"
+msgid "See NOTICE.ECN in source for attribution"
+msgstr ""
 
 #. js-lingui-explicit-id
 #: src/emails/server-admin-access-changed.email.tsx
@@ -239,6 +239,11 @@ msgid "Set your password 🗝"
 msgstr "Imposta la tua password 🗝"
 
 #. js-lingui-explicit-id
+#: src/components/Footer.tsx
+msgid "Source"
+msgstr ""
+
+#. js-lingui-explicit-id
 #: src/emails/clean-suspended-workspace.email.tsx
 msgid "Start a new workspace"
 msgstr "Avvia un nuovo workspace"
@@ -265,11 +270,6 @@ msgstr "Per mantenere il tuo workspace e tutto ciò che hai costruito, aggiungi 
 
 #. js-lingui-explicit-id
 #: src/components/Footer.tsx
-msgid "Twenty.com, Public Benefit Corporation"
-msgstr "Twenty.com, Società di Pubblica Utilità"
-
-#. js-lingui-explicit-id
-#: src/components/Footer.tsx
 msgid "User guide"
 msgstr "Guida utente"
 
@@ -286,18 +286,18 @@ msgstr "Verifica e-mail"
 
 #. js-lingui-explicit-id
 #: src/components/Footer.tsx
-msgid "Visit Twenty's developer documentation"
-msgstr "Visita la documentazione per sviluppatori di Twenty"
+msgid "View CRM source code"
+msgstr ""
 
 #. js-lingui-explicit-id
 #: src/components/Footer.tsx
-msgid "Visit Twenty's GitHub repository"
-msgstr "Visita il repository GitHub di Twenty"
+msgid "Visit CRM developer documentation"
+msgstr ""
 
 #. js-lingui-explicit-id
 #: src/components/Footer.tsx
-msgid "Visit Twenty's website"
-msgstr "Visita il sito web di Twenty"
+msgid "Visit Earth Care Network's website"
+msgstr ""
 
 #. js-lingui-explicit-id
 #: src/emails/billing-trial-converting.email.tsx

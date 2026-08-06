@@ -84,14 +84,14 @@ msgid "Disabled"
 msgstr "禁用"
 
 #. js-lingui-explicit-id
+#: src/components/Footer.tsx
+msgid "Earth Care Network — CRM (AGPL)"
+msgstr ""
+
+#. js-lingui-explicit-id
 #: src/emails/server-admin-access-changed.email.tsx
 msgid "Enabled"
 msgstr "已启用"
-
-#. js-lingui-explicit-id
-#: src/components/Footer.tsx
-msgid "Github"
-msgstr "Github"
 
 #. js-lingui-explicit-id
 #: src/emails/warn-suspended-workspace.email.tsx
@@ -185,8 +185,8 @@ msgstr "重新激活工作区"
 
 #. js-lingui-explicit-id
 #: src/components/Footer.tsx
-msgid "Read Twenty's user guide"
-msgstr "阅读 Twenty 的用户指南"
+msgid "Read Earth Care Network documentation"
+msgstr ""
 
 #. js-lingui-explicit-id
 #: src/emails/password-reset-link.email.tsx
@@ -200,8 +200,8 @@ msgstr "重置您的密码 🗝"
 
 #. js-lingui-explicit-id
 #: src/components/Footer.tsx
-msgid "San Francisco / Paris"
-msgstr "旧金山/巴黎"
+msgid "See NOTICE.ECN in source for attribution"
+msgstr ""
 
 #. js-lingui-explicit-id
 #: src/emails/server-admin-access-changed.email.tsx
@@ -239,6 +239,11 @@ msgid "Set your password 🗝"
 msgstr "设置您的密码 🗝"
 
 #. js-lingui-explicit-id
+#: src/components/Footer.tsx
+msgid "Source"
+msgstr ""
+
+#. js-lingui-explicit-id
 #: src/emails/clean-suspended-workspace.email.tsx
 msgid "Start a new workspace"
 msgstr "开始新工作区"
@@ -265,11 +270,6 @@ msgstr "若要保留您的工作区以及您构建的一切，请添加付款方
 
 #. js-lingui-explicit-id
 #: src/components/Footer.tsx
-msgid "Twenty.com, Public Benefit Corporation"
-msgstr "Twenty.com，公益公司"
-
-#. js-lingui-explicit-id
-#: src/components/Footer.tsx
 msgid "User guide"
 msgstr "用户指南"
 
@@ -286,18 +286,18 @@ msgstr "验证邮箱"
 
 #. js-lingui-explicit-id
 #: src/components/Footer.tsx
-msgid "Visit Twenty's developer documentation"
-msgstr "访问 Twenty 的开发者文档"
+msgid "View CRM source code"
+msgstr ""
 
 #. js-lingui-explicit-id
 #: src/components/Footer.tsx
-msgid "Visit Twenty's GitHub repository"
-msgstr "访问 Twenty 的 GitHub 仓库"
+msgid "Visit CRM developer documentation"
+msgstr ""
 
 #. js-lingui-explicit-id
 #: src/components/Footer.tsx
-msgid "Visit Twenty's website"
-msgstr "访问 Twenty 的网站"
+msgid "Visit Earth Care Network's website"
+msgstr ""
 
 #. js-lingui-explicit-id
 #: src/emails/billing-trial-converting.email.tsx

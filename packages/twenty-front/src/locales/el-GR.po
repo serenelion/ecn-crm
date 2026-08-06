@@ -1237,6 +1237,11 @@ msgstr "Προσθήκη πιστωτικής κάρτας"
 msgid "Add Credit Card"
 msgstr "Προσθήκη Πιστωτικής Κάρτας"
 
+#. js-lingui-id: pASLW6
+#: src/modules/settings/mcp-and-apis/utils/buildMcpSetupCategories.tsx
+msgid "Add CRM as a Streamable HTTP extension in Goose."
+msgstr ""
+
 #. js-lingui-id: TXurH0
 #: src/modules/settings/domains/components/SettingsPublicDomainsListCard.tsx
 #: src/modules/settings/domains/components/SettingsPublicDomainsListCard.tsx
@@ -1449,35 +1454,35 @@ msgstr "Προσθήκη παρόχου ταυτότητας SSO"
 msgid "Add test input for evaluation (e.g., \"Find all customers in NY\")"
 msgstr ""
 
-#. js-lingui-id: FKGcEL
+#. js-lingui-id: 7aH4FT
 #: src/modules/settings/mcp-and-apis/utils/buildMcpSetupCategories.tsx
-msgid "Add the Twenty MCP server as a remote context server in Zed."
-msgstr "Προσθέστε τον διακομιστή Twenty MCP ως απομακρυσμένο διακομιστή περιβάλλοντος στο Zed."
+msgid "Add the CRM MCP server as a remote context server in Zed."
+msgstr ""
 
-#. js-lingui-id: iA2nHX
+#. js-lingui-id: 5T9CXT
 #: src/modules/settings/mcp-and-apis/utils/buildMcpSetupCategories.tsx
-msgid "Add the Twenty MCP server from Augment Code settings."
-msgstr "Προσθέστε τον διακομιστή Twenty MCP από τις ρυθμίσεις του Augment Code."
+msgid "Add the CRM MCP server from Augment Code settings."
+msgstr ""
 
-#. js-lingui-id: l+NzAk
+#. js-lingui-id: g8YpTg
 #: src/modules/settings/mcp-and-apis/utils/buildMcpSetupCategories.tsx
-msgid "Add the Twenty MCP server from Raycast's MCP commands or settings."
-msgstr "Προσθέστε τον διακομιστή Twenty MCP από τις εντολές ή τις ρυθμίσεις MCP του Raycast."
+msgid "Add the CRM MCP server from Raycast's MCP commands or settings."
+msgstr ""
 
-#. js-lingui-id: j6G/yI
+#. js-lingui-id: aO0n/B
 #: src/modules/settings/mcp-and-apis/utils/buildMcpSetupCategories.tsx
-msgid "Add the Twenty MCP server in Gemini CLI settings."
-msgstr "Προσθέστε τον διακομιστή Twenty MCP στις ρυθμίσεις του Gemini CLI."
+msgid "Add the CRM MCP server in Gemini CLI settings."
+msgstr ""
 
-#. js-lingui-id: /OyhlM
+#. js-lingui-id: N5PPOF
 #: src/modules/settings/mcp-and-apis/utils/buildMcpSetupCategories.tsx
-msgid "Add the Twenty MCP server to your LibreChat configuration file."
-msgstr "Προσθέστε τον διακομιστή Twenty MCP στο αρχείο ρυθμίσεων του LibreChat."
+msgid "Add the CRM MCP server to your LibreChat configuration file."
+msgstr ""
 
-#. js-lingui-id: K0DXoj
+#. js-lingui-id: o33QHw
 #: src/modules/settings/mcp-and-apis/utils/buildMcpSetupCategories.tsx
-msgid "Add the Twenty remote server with LM Studio's install link."
-msgstr "Προσθέστε τον απομακρυσμένο διακομιστή Twenty με τον σύνδεσμο εγκατάστασης του LM Studio."
+msgid "Add the CRM remote server with LM Studio's install link."
+msgstr ""
 
 #. js-lingui-id: 5+ttxv
 #: src/modules/settings/accounts/components/SettingsAccountsBlocklistInput.tsx
@@ -1493,11 +1498,6 @@ msgstr "Προσθήκη στα Αγαπημένα"
 #: src/modules/settings/unsubscribe-topics/components/SettingsWorkspaceUnsubscribeTopicSection.tsx
 msgid "Add topic"
 msgstr "Προσθήκη θέματος"
-
-#. js-lingui-id: 4D/zWv
-#: src/modules/settings/mcp-and-apis/utils/buildMcpSetupCategories.tsx
-msgid "Add Twenty as a Streamable HTTP extension in Goose."
-msgstr "Προσθέστε το Twenty ως επέκταση Streamable HTTP στο Goose."
 
 #. js-lingui-id: XnwceV
 #: src/pages/settings/applications/components/SettingsApplicationRegistrationRedirectURIsInput.tsx
@@ -3096,10 +3096,10 @@ msgstr "Διάστημα χρέωσης"
 msgid "Billing period"
 msgstr "Περίοδος χρέωσης"
 
-#. js-lingui-id: xF/NXI
+#. js-lingui-id: c85cgp
 #: src/modules/settings/billing/hooks/useBillingPortalSession.ts
-msgid "Billing portal session error. Please retry or contact Twenty team"
-msgstr "Σφάλμα συνεδρίας πύλης χρέωσης. Δοκιμάστε ξανά ή επικοινωνήστε με την ομάδα Twenty"
+msgid "Billing portal session error. Please retry or contact support"
+msgstr ""
 
 #. js-lingui-id: K1172m
 #: src/modules/settings/accounts/components/SettingsAccountsBlocklistSection.tsx
@@ -3228,10 +3228,10 @@ msgstr "Συμπεριλαμβάνεται με το {applicationName}"
 msgid "by {author}"
 msgstr "από {author}"
 
-#. js-lingui-id: 8Pfllj
+#. js-lingui-id: u58QMg
 #: src/modules/auth/sign-in-up/components/FooterNote.tsx
-msgid "By using Twenty, you agree to the"
-msgstr "Χρησιμοποιώντας το Twenty, συμφωνείτε με τους"
+msgid "By using CRM, you agree to the"
+msgstr ""
 
 #. js-lingui-id: Yx41df
 #: src/modules/auth/sign-in-up/components/FooterNote.tsx
@@ -3692,11 +3692,11 @@ msgstr "Έλεγξε τα emails σου"
 msgid "Check your inbox to verify your new email address."
 msgstr "Ελέγξτε τα εισερχόμενά σας για να επαληθεύσετε τη νέα σας διεύθυνση email."
 
-#. js-lingui-id: SxwQE8
+#. js-lingui-id: 2JG4PX
 #: src/modules/settings/billing/hooks/useHandleCheckoutSession.ts
 #: src/modules/settings/billing/hooks/useHandleCheckoutSession.ts
-msgid "Checkout session error. Please retry or contact Twenty team"
-msgstr "Σφάλμα συνεδρίας Checkout. Δοκιμάστε ξανά ή επικοινωνήστε με την ομάδα Twenty"
+msgid "Checkout session error. Please retry or contact support"
+msgstr ""
 
 #. js-lingui-id: SviKkE
 #: src/pages/settings/profile/appearance/components/LocalePicker.tsx
@@ -4305,6 +4305,16 @@ msgstr "Ρυθμίστε τις παραμέτρους του IMAP για να �
 msgid "Configure SMTP settings to send emails from your account."
 msgstr "Ρυθμίστε τις παραμέτρους SMTP για να στέλνετε email από τον λογαριασμό σας."
 
+#. js-lingui-id: 6ehOVl
+#: src/modules/settings/mcp-and-apis/utils/buildMcpSetupCategories.tsx
+msgid "Configure the CRM MCP server manually in Cascade."
+msgstr ""
+
+#. js-lingui-id: 4ya5X9
+#: src/modules/settings/mcp-and-apis/utils/buildMcpSetupCategories.tsx
+msgid "Configure the CRM MCP server manually in Cline."
+msgstr ""
+
 #. js-lingui-id: TiCmQz
 #: src/modules/settings/admin-panel/ai/components/SettingsAdminAI.tsx
 msgid "Configure the default AI models for all workspaces"
@@ -4319,16 +4329,6 @@ msgstr "Ρυθμίστε τον απομακρυσμένο διακομιστή 
 #: src/modules/settings/mcp-and-apis/utils/buildMcpSetupCategories.tsx
 msgid "Configure the remote server in Amazon Q Developer's MCP settings."
 msgstr "Ρυθμίστε τον απομακρυσμένο διακομιστή στις ρυθμίσεις MCP του Amazon Q Developer."
-
-#. js-lingui-id: g1/8jH
-#: src/modules/settings/mcp-and-apis/utils/buildMcpSetupCategories.tsx
-msgid "Configure the Twenty MCP server manually in Cascade."
-msgstr "Ρυθμίστε χειροκίνητα τον διακομιστή Twenty MCP στο Cascade."
-
-#. js-lingui-id: XiyvRh
-#: src/modules/settings/mcp-and-apis/utils/buildMcpSetupCategories.tsx
-msgid "Configure the Twenty MCP server manually in Cline."
-msgstr "Ρυθμίστε χειροκίνητα τον διακομιστή Twenty MCP στο Cline."
 
 #. js-lingui-id: qA9AGQ
 #: src/modules/settings/domains/components/SettingsDomainRecords.tsx
@@ -5249,6 +5249,11 @@ msgstr "πιστώσεις ανά περίοδο"
 #: src/modules/settings/data-model/fields/forms/select/components/SettingsDataModelFieldSelectFormOptionRow.tsx
 msgid "Crimson"
 msgstr "Καρμινί"
+
+#. js-lingui-id: sk+eeK
+#: src/modules/spreadsheet-import/steps/components/MatchColumnsStep/components/ColumnGrid.tsx
+msgid "CRM fields"
+msgstr ""
 
 #. js-lingui-id: 6Oaeoc
 #: src/modules/logic-functions/utils/getLogicFunctionTriggerLabel.ts
@@ -7668,10 +7673,10 @@ msgstr "Σφάλμα κατά την ακύρωση αλλαγής περιόδ�
 msgid "Error while cancelling plan switching."
 msgstr "Σφάλμα κατά την ακύρωση αλλαγής προγράμματος."
 
-#. js-lingui-id: QmR+2U
+#. js-lingui-id: vWUy5k
 #: src/modules/settings/billing/hooks/useEndSubscriptionTrialPeriod.ts
-msgid "Error while ending trial period. Please contact Twenty team."
-msgstr "Σφάλμα κατά τη λήξη της δοκιμαστικής περιόδου. Επικοινωνήστε με την ομάδα Twenty."
+msgid "Error while ending trial period. Please contact support."
+msgstr ""
 
 #. js-lingui-id: 5g78zo
 #: src/pages/settings/members/SettingsWorkspaceMember.tsx
@@ -9367,10 +9372,10 @@ msgstr "Απόκρυψη ετικέτας"
 msgid "Hide system indexes"
 msgstr "Απόκρυψη συστημικών ευρετηρίων"
 
-#. js-lingui-id: 1ETc0T
+#. js-lingui-id: 2gwmbI
 #: src/pages/settings/community/SettingsCommunity.tsx
-msgid "Hire a partner to help you implement and customize Twenty."
-msgstr "Προσλάβετε έναν συνεργάτη για να σας βοηθήσει να υλοποιήσετε και να προσαρμόσετε το Twenty."
+msgid "Hire a partner to help you implement and customize CRM."
+msgstr ""
 
 #. js-lingui-id: i0qMbr
 #: src/modules/navigation/components/MainNavigationDrawerTabsRow.tsx
@@ -9383,7 +9388,7 @@ msgstr "Αρχική"
 msgid "Horizontal Bar Chart"
 msgstr ""
 
-#. js-lingui-id: WOXdI6
+#. js-lingui-id: 3aMh1k
 #: src/pages/settings/applications/utils/getCustomApplicationDescription.ts
 msgid ""
 "Host your workspace's customizations and overrides.\n"
@@ -9400,39 +9405,10 @@ msgid ""
 "\n"
 "If you are shaping one workspace for one business, keep it here. If you are building a reusable business app with its own data model, UI, and automation that should be versioned, shared, or installed across workspaces, create a dedicated app instead.\n"
 "\n"
-"#### Build your own app\n"
+"#### Source\n"
 "\n"
-"Scaffold a new app in one command:\n"
-"\n"
-"```bash\n"
-"npx create-twenty-app@latest my-twenty-app\n"
-"```\n"
-"\n"
-"See the [Getting Started guide](https://twenty.com/developers/extend/apps/getting-started) for the full walkthrough, and [Building Apps](https://twenty.com/developers/extend/apps/building) for the `defineApplication` / `defineEntity` APIs."
+"See the [ECN CRM source repository](https://github.com/serenelion/ecn-crm) for fork APIs and contribution guidance."
 msgstr ""
-"Φιλοξενήστε τις προσαρμογές και τους υπερκαθορισμούς του χώρου εργασίας σας.\n"
-"\n"
-"#### Τι περιλαμβάνει\n"
-"Κάθε επέκταση που δημιουργείτε πάνω από την τυπική εφαρμογή ομαδοποιείται στο Custom. Διατηρεί τις αλλαγές στο σχήμα σας, τις αλλαγές στη διεπαφή και τη λογική που είναι συγκεκριμένη για τον χώρο εργασίας σε ένα σημείο.\n"
-"\n"
-"- Προσαρμοσμένα αντικείμενα και πεδία για το δικό σας μοντέλο δεδομένων\n"
-"- Προβολές, στοιχεία πλοήγησης και διατάξεις εγγραφών που καθορίζουν τον τρόπο εργασίας της ομάδας σας\n"
-"- Συναρτήσεις λογικής, front components και πράκτορες που αυτοματοποιούν ή επεκτείνουν τον χώρο εργασίας\n"
-"\n"
-"#### Γιατί υπάρχει\n"
-"Χρησιμοποιήστε αυτήν την εφαρμογή για προσαρμογές ειδικές για τον χώρο εργασίας που πρέπει να παραμένουν τοπικές σε αυτόν τον χώρο εργασίας.\n"
-"\n"
-"Αν διαμορφώνετε έναν χώρο εργασίας για μία επιχείρηση, διατηρήστε τα εδώ. Αν δημιουργείτε μια επαναχρησιμοποιήσιμη επιχειρησιακή εφαρμογή με δικό της μοντέλο δεδομένων, UI και αυτοματοποίηση που πρέπει να έχει εκδόσεις, να κοινοποιείται ή να εγκαθίσταται σε πολλούς χώρους εργασίας, δημιουργήστε αντ' αυτού μια αφιερωμένη εφαρμογή.\n"
-"\n"
-"#### Δημιουργήστε τη δική σας εφαρμογή\n"
-"\n"
-"Δημιουργήστε το αρχικό σκελετό μιας νέας εφαρμογής με μία εντολή:\n"
-"\n"
-"```bash\n"
-"npx create-twenty-app@latest my-twenty-app\n"
-"```\n"
-"\n"
-"Δείτε τον [Οδηγό Γρήγορης Εκκίνησης](https://twenty.com/developers/extend/apps/getting-started) για την πλήρη παρουσίαση, και το [Δημιουργία εφαρμογών](https://twenty.com/developers/extend/apps/building) για τα APIs `defineApplication` / `defineEntity`."
 
 #. js-lingui-id: yY8wAv
 #: src/modules/workflow/workflow-steps/workflow-actions/delay-actions/components/WorkflowEditActionDelay.tsx
@@ -13493,10 +13469,10 @@ msgstr "Πακέτα Ενσωμάτωσης"
 msgid "One or more filters reference deactivated or deleted fields and will be automatically removed on save."
 msgstr "Ένα ή περισσότερα φίλτρα αναφέρονται σε απενεργοποιημένα ή διαγραμμένα πεδία και θα αφαιρεθούν αυτόματα κατά την αποθήκευση."
 
-#. js-lingui-id: 2l4SGU
+#. js-lingui-id: rYErhj
 #: src/pages/settings/enterprise/SettingsEnterprise.tsx
-msgid "One subscription provides one enterprise key that powers one production instance and one potential staging or test instance. To run a staging or test environment, install Twenty on a second server, activate it with this same enterprise key, then register that server as a development instance. Development instances unlock enterprise features without extra billing and do not count toward your production seats."
-msgstr "Μία συνδρομή παρέχει ένα κλειδί enterprise που ενεργοποιεί ένα παραγωγικό instance και ένα πιθανό instance staging ή δοκιμών. Για να εκτελέσετε ένα περιβάλλον staging ή δοκιμών, εγκαταστήστε το Twenty σε δεύτερο διακομιστή, ενεργοποιήστε το με το ίδιο κλειδί enterprise και καταχωρίστε αυτόν τον διακομιστή ως instance ανάπτυξης. Τα instances ανάπτυξης ξεκλειδώνουν λειτουργίες enterprise χωρίς επιπλέον χρέωση και δεν μετρούν στις θέσεις παραγωγής σας."
+msgid "One subscription provides one enterprise key that powers one production instance and one potential staging or test instance. To run a staging or test environment, install CRM on a second server, activate it with this same enterprise key, then register that server as a development instance. Development instances unlock enterprise features without extra billing and do not count toward your production seats."
+msgstr ""
 
 #. js-lingui-id: oFTo3P
 #: src/modules/settings/event-logs/components/SettingsLogs.tsx
@@ -13580,15 +13556,20 @@ msgstr "Ανοίξτε μια συντηρούμενη ενσωμάτωση ή �
 msgid "Open as link"
 msgstr "Άνοιγμα ως σύνδεσμος"
 
-#. js-lingui-id: n0vVgf
+#. js-lingui-id: FfHc+t
 #: src/modules/settings/mcp-and-apis/utils/buildMcpSetupCategories.tsx
-msgid "Open Claude with the Twenty connector name and MCP URL prefilled."
-msgstr "Ανοίξτε το Claude με προ-συμπληρωμένο το όνομα connector Twenty και την MCP URL."
+msgid "Open Claude with the CRM connector name and MCP URL prefilled."
+msgstr ""
 
-#. js-lingui-id: +n2jpB
+#. js-lingui-id: G2Z9EW
 #: src/modules/settings/mcp-and-apis/utils/buildMcpSetupCategories.tsx
-msgid "Open Cursor's MCP installer with the Twenty remote server config."
-msgstr "Ανοίξτε το πρόγραμμα εγκατάστασης MCP του Cursor με τη ρύθμιση απομακρυσμένου διακομιστή Twenty."
+msgid "Open CRM's official ChatGPT integration for your workspace."
+msgstr ""
+
+#. js-lingui-id: dkcyL0
+#: src/modules/settings/mcp-and-apis/utils/buildMcpSetupCategories.tsx
+msgid "Open Cursor's MCP installer with the CRM remote server config."
+msgstr ""
 
 #. js-lingui-id: pZZH4Q
 #: src/modules/auth/sign-in-up/components/EmailVerificationSent.tsx
@@ -13627,15 +13608,10 @@ msgstr "Άνοιγμα εγγραφών σε"
 msgid "Open records on a dedicated page"
 msgstr ""
 
-#. js-lingui-id: q170S2
+#. js-lingui-id: t//ofg
 #: src/modules/settings/mcp-and-apis/utils/buildMcpSetupCategories.tsx
-msgid "Open Replit with the Twenty remote server config."
-msgstr "Ανοίξτε το Replit με τη ρύθμιση απομακρυσμένου διακομιστή Twenty."
-
-#. js-lingui-id: sBd/cl
-#: src/modules/settings/mcp-and-apis/utils/buildMcpSetupCategories.tsx
-msgid "Open Twenty's official ChatGPT integration for your workspace."
-msgstr "Ανοίξτε την επίσημη ενσωμάτωση ChatGPT του Twenty για τον χώρο εργασίας σας."
+msgid "Open Replit with the CRM remote server config."
+msgstr ""
 
 #. js-lingui-id: OV5wZZ
 #: src/modules/navigation-menu-item/display/sections/components/NavigationDrawerOpenedSection.tsx
@@ -13923,10 +13899,10 @@ msgstr "Διατάξεις σελίδας"
 msgid "Page name"
 msgstr "Όνομα σελίδας"
 
-#. js-lingui-id: NRvxzv
+#. js-lingui-id: udqOvP
 #: src/pages/not-found/NotFound.tsx
-msgid "Page Not Found | Twenty"
-msgstr "Η Σελίδα Δεν Βρέθηκε | Twenty"
+msgid "Page Not Found | CRM"
+msgstr ""
 
 #. js-lingui-id: sF+Xp9
 #: src/modules/settings/event-logs/components/EventLogTableSelector.tsx
@@ -17376,10 +17352,10 @@ msgstr "Υπο-Πεδία"
 msgid "Subdomain"
 msgstr "Υποτομέας"
 
-#. js-lingui-id: Sv4BSp
+#. js-lingui-id: k6cRcJ
 #: src/modules/settings/billing/constants/SettingsBillingPlanComparisonRows.ts
-msgid "Subdomain (yourco.twenty.com)"
-msgstr "Υποτομέας (yourco.twenty.com)"
+msgid "Subdomain (yourco.earthcare.network)"
+msgstr ""
 
 #. js-lingui-id: mGO3xy
 #: src/modules/auth/sign-in-up/components/internal/SignInUpWorkspaceCreationForm.tsx
@@ -17470,13 +17446,13 @@ msgstr "Συνδρομή"
 msgid "Subscription activated."
 msgstr "Η συνδρομή ενεργοποιήθηκε."
 
-#. js-lingui-id: 0okvpx
+#. js-lingui-id: EXo5x5
 #: src/modules/settings/billing/components/AddPaymentMethodForm.tsx
 #: src/modules/settings/billing/components/AddPaymentMethodForm.tsx
 #: src/modules/settings/billing/hooks/useSubmitSubscriptionPayment.ts
 #: src/modules/settings/billing/hooks/useSubmitSubscriptionPayment.ts
-msgid "Subscription error. Please retry or contact Twenty team"
-msgstr "Σφάλμα συνδρομής. Δοκιμάστε ξανά ή επικοινωνήστε με την ομάδα Twenty"
+msgid "Subscription error. Please retry or contact support"
+msgstr ""
 
 #. js-lingui-id: FooJUj
 #. placeholder {0}: getTargetPlanLabel(targetPlanKey)
@@ -17865,14 +17841,14 @@ msgstr "Το API endpoint για τον πάροχό σας που είναι σ
 msgid "The AWS region for Bedrock"
 msgstr "Η περιοχή AWS για το Bedrock"
 
-#. js-lingui-id: HP7per
+#. js-lingui-id: oEdh7d
 #: src/pages/settings/applications/utils/getStandardApplicationDescription.ts
 msgid ""
-"The base data model every Twenty workspace runs on.\n"
+"The base data model every CRM workspace runs on.\n"
 "\n"
 "#### What \"foundation\" means\n"
 "\n"
-"Every Twenty workspace starts with this set of objects. They define the shape of your CRM, including relationships, activity, and reporting. Everything else, including marketplace apps, AI agents, and custom objects, plugs into them.\n"
+"Every CRM workspace starts with this set of objects. They define the shape of your CRM, including relationships, activity, and reporting. Everything else, including marketplace apps, AI agents, and custom objects, plugs into them.\n"
 "\n"
 "#### Included objects\n"
 "- **People & Companies**: contact and account records\n"
@@ -17880,55 +17856,12 @@ msgid ""
 "- **Notes & Tasks**: activity and follow-ups\n"
 "- **Workflows & Dashboards**: automation and reporting\n"
 "\n"
-"Remove this app and the rest of Twenty has nothing to hang off.\n"
+"Remove this app and the rest of CRM has nothing to hang off.\n"
 "\n"
-"#### Build your own app\n"
+"#### Source\n"
 "\n"
-"Extend Twenty with your own objects, fields, logic functions, or AI skills. Scaffold a new app in one command:\n"
-"\n"
-"```bash\n"
-"npx create-twenty-app@latest my-twenty-app\n"
-"```\n"
-"\n"
-"Then inside the folder:\n"
-"\n"
-"```bash\n"
-"cd my-twenty-app\n"
-"yarn twenty dev\n"
-"```\n"
-"\n"
-"See the [Getting Started guide](https://twenty.com/developers/extend/apps/getting-started) for the full walkthrough, and [Building Apps](https://twenty.com/developers/extend/apps/building) for the `defineApplication` / `defineEntity` APIs."
+"See the [ECN CRM source repository](https://github.com/serenelion/ecn-crm) for fork APIs and contribution guidance."
 msgstr ""
-"Το βασικό μοντέλο δεδομένων πάνω στο οποίο λειτουργεί κάθε χώρος εργασίας του Twenty.\n"
-"\n"
-"#### Τι σημαίνει \"θεμέλιο\"\n"
-"\n"
-"Κάθε χώρος εργασίας του Twenty ξεκινά με αυτό το σύνολο αντικειμένων. Αυτά ορίζουν τη μορφή του CRM σας, συμπεριλαμβανομένων των σχέσεων, της δραστηριότητας και της δημιουργίας αναφορών. Οτιδήποτε άλλο, συμπεριλαμβανομένων των εφαρμογών του marketplace, των πρακτόρων AI και των προσαρμοσμένων αντικειμένων, συνδέεται πάνω σε αυτά.\n"
-"\n"
-"#### Περιλαμβανόμενα αντικείμενα\n"
-"- **Άνθρωποι & Εταιρείες**: εγγραφές επαφών και λογαριασμών\n"
-"- **Ευκαιρίες**: το pipeline πωλήσεών σας\n"
-"- **Σημειώσεις & Εργασίες**: δραστηριότητα και ενέργειες παρακολούθησης\n"
-"- **Ροές εργασίας & Πίνακες ελέγχου**: αυτοματοποίηση και αναφορές\n"
-"\n"
-"Αφαιρέστε αυτήν την εφαρμογή και το υπόλοιπο Twenty δεν έχει τίποτα για να στηριχθεί.\n"
-"\n"
-"#### Δημιουργήστε τη δική σας εφαρμογή\n"
-"\n"
-"Επεκτείνετε το Twenty με δικά σας αντικείμενα, πεδία, συναρτήσεις λογικής ή δεξιότητες AI. Δημιουργήστε το αρχικό σκελετό μιας νέας εφαρμογής με μία εντολή:\n"
-"\n"
-"```bash\n"
-"npx create-twenty-app@latest my-twenty-app\n"
-"```\n"
-"\n"
-"Στη συνέχεια μέσα στον φάκελο:\n"
-"\n"
-"```bash\n"
-"cd my-twenty-app\n"
-"yarn twenty dev\n"
-"```\n"
-"\n"
-"Δείτε τον [Οδηγό Γρήγορης Εκκίνησης](https://twenty.com/developers/extend/apps/getting-started) για την πλήρη παρουσίαση, και το [Δημιουργία εφαρμογών](https://twenty.com/developers/extend/apps/building) για τα APIs `defineApplication` / `defineEntity`."
 
 #. js-lingui-id: /kfzmx
 #: src/pages/settings/legal/SettingsLegalDpa.tsx
@@ -18017,10 +17950,10 @@ msgstr ""
 msgid "The page you're seeking is either gone or never was. Let's get you back on track"
 msgstr "Η σελίδα που αναζητάτε είτε έχει διαγραφεί είτε ποτέ δεν υπήρχε. Ας σας επαναφέρουμε στον σωστό δρόμο"
 
-#. js-lingui-id: Ya1wb4
+#. js-lingui-id: 9jqR5k
 #: src/pages/settings/legal/SettingsLegalDpaNew.tsx
-msgid "The PDF is pre-signed by Twenty and executed with your legal entity and authorized signatory."
-msgstr "Το PDF είναι προ-υπογεγραμμένο από την Twenty και εκτελείται με τη νομική σας οντότητα και τον εξουσιοδοτημένο υπογράφοντα."
+msgid "The PDF is pre-signed by Earth Care Network and executed with your legal entity and authorized signatory."
+msgstr ""
 
 #. js-lingui-id: wxyrqd
 #: src/modules/workflow/workflow-steps/workflow-actions/pick-record-action/components/WorkflowEditActionPickRecord.tsx
@@ -18900,11 +18833,6 @@ msgstr ""
 #: src/modules/settings/data-model/fields/forms/select/components/SettingsDataModelFieldSelectFormOptionRow.tsx
 msgid "Turquoise"
 msgstr "Τιρκουάζ"
-
-#. js-lingui-id: JnaRPe
-#: src/modules/spreadsheet-import/steps/components/MatchColumnsStep/components/ColumnGrid.tsx
-msgid "Twenty fields"
-msgstr "Πεδία Twenty"
 
 #. js-lingui-id: YIjS4q
 #: src/modules/ai/components/SettingsAgentModelCapabilities.tsx
@@ -20434,10 +20362,10 @@ msgstr ""
 msgid "Weight"
 msgstr "Στάθμιση"
 
-#. js-lingui-id: nTuObL
+#. js-lingui-id: grNq4v
 #: src/pages/auth/SignInUp.tsx
-msgid "Welcome to Twenty"
-msgstr "Καλώς ήρθατε στο Twenty"
+msgid "Welcome to CRM"
+msgstr ""
 
 #. js-lingui-id: t8ZvkC
 #: src/modules/onboarding/constants/WelcomeTitleMessage.ts

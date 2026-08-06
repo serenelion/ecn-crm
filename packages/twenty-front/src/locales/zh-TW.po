@@ -1237,6 +1237,11 @@ msgstr "新增信用卡"
 msgid "Add Credit Card"
 msgstr "新增信用卡"
 
+#. js-lingui-id: pASLW6
+#: src/modules/settings/mcp-and-apis/utils/buildMcpSetupCategories.tsx
+msgid "Add CRM as a Streamable HTTP extension in Goose."
+msgstr ""
+
 #. js-lingui-id: TXurH0
 #: src/modules/settings/domains/components/SettingsPublicDomainsListCard.tsx
 #: src/modules/settings/domains/components/SettingsPublicDomainsListCard.tsx
@@ -1449,35 +1454,35 @@ msgstr "添加 SSO 身份提供者"
 msgid "Add test input for evaluation (e.g., \"Find all customers in NY\")"
 msgstr ""
 
-#. js-lingui-id: FKGcEL
+#. js-lingui-id: 7aH4FT
 #: src/modules/settings/mcp-and-apis/utils/buildMcpSetupCategories.tsx
-msgid "Add the Twenty MCP server as a remote context server in Zed."
-msgstr "在 Zed 中將 Twenty MCP 伺服器新增為遠端內容伺服器。"
+msgid "Add the CRM MCP server as a remote context server in Zed."
+msgstr ""
 
-#. js-lingui-id: iA2nHX
+#. js-lingui-id: 5T9CXT
 #: src/modules/settings/mcp-and-apis/utils/buildMcpSetupCategories.tsx
-msgid "Add the Twenty MCP server from Augment Code settings."
-msgstr "在 Augment Code 設定中新增 Twenty MCP 伺服器。"
+msgid "Add the CRM MCP server from Augment Code settings."
+msgstr ""
 
-#. js-lingui-id: l+NzAk
+#. js-lingui-id: g8YpTg
 #: src/modules/settings/mcp-and-apis/utils/buildMcpSetupCategories.tsx
-msgid "Add the Twenty MCP server from Raycast's MCP commands or settings."
-msgstr "透過 Raycast 的 MCP 指令或設定新增 Twenty MCP 伺服器。"
+msgid "Add the CRM MCP server from Raycast's MCP commands or settings."
+msgstr ""
 
-#. js-lingui-id: j6G/yI
+#. js-lingui-id: aO0n/B
 #: src/modules/settings/mcp-and-apis/utils/buildMcpSetupCategories.tsx
-msgid "Add the Twenty MCP server in Gemini CLI settings."
-msgstr "在 Gemini CLI 設定中新增 Twenty MCP 伺服器。"
+msgid "Add the CRM MCP server in Gemini CLI settings."
+msgstr ""
 
-#. js-lingui-id: /OyhlM
+#. js-lingui-id: N5PPOF
 #: src/modules/settings/mcp-and-apis/utils/buildMcpSetupCategories.tsx
-msgid "Add the Twenty MCP server to your LibreChat configuration file."
-msgstr "將 Twenty MCP 伺服器新增到您的 LibreChat 設定檔。"
+msgid "Add the CRM MCP server to your LibreChat configuration file."
+msgstr ""
 
-#. js-lingui-id: K0DXoj
+#. js-lingui-id: o33QHw
 #: src/modules/settings/mcp-and-apis/utils/buildMcpSetupCategories.tsx
-msgid "Add the Twenty remote server with LM Studio's install link."
-msgstr "使用 LM Studio 的安裝連結新增 Twenty 遠端伺服器。"
+msgid "Add the CRM remote server with LM Studio's install link."
+msgstr ""
 
 #. js-lingui-id: 5+ttxv
 #: src/modules/settings/accounts/components/SettingsAccountsBlocklistInput.tsx
@@ -1493,11 +1498,6 @@ msgstr "添加到收藏夾"
 #: src/modules/settings/unsubscribe-topics/components/SettingsWorkspaceUnsubscribeTopicSection.tsx
 msgid "Add topic"
 msgstr "新增主題"
-
-#. js-lingui-id: 4D/zWv
-#: src/modules/settings/mcp-and-apis/utils/buildMcpSetupCategories.tsx
-msgid "Add Twenty as a Streamable HTTP extension in Goose."
-msgstr "在 Goose 中將 Twenty 新增為可串流的 HTTP 擴充功能。"
 
 #. js-lingui-id: XnwceV
 #: src/pages/settings/applications/components/SettingsApplicationRegistrationRedirectURIsInput.tsx
@@ -3096,10 +3096,10 @@ msgstr "計費間隔"
 msgid "Billing period"
 msgstr "計費期間"
 
-#. js-lingui-id: xF/NXI
+#. js-lingui-id: c85cgp
 #: src/modules/settings/billing/hooks/useBillingPortalSession.ts
-msgid "Billing portal session error. Please retry or contact Twenty team"
-msgstr "帳務入口會話錯誤。請重試或聯絡 Twenty 團隊"
+msgid "Billing portal session error. Please retry or contact support"
+msgstr ""
 
 #. js-lingui-id: K1172m
 #: src/modules/settings/accounts/components/SettingsAccountsBlocklistSection.tsx
@@ -3228,10 +3228,10 @@ msgstr "隨 {applicationName} 一起打包"
 msgid "by {author}"
 msgstr "由 {author}"
 
-#. js-lingui-id: 8Pfllj
+#. js-lingui-id: u58QMg
 #: src/modules/auth/sign-in-up/components/FooterNote.tsx
-msgid "By using Twenty, you agree to the"
-msgstr "使用 Twenty 即表示您同意"
+msgid "By using CRM, you agree to the"
+msgstr ""
 
 #. js-lingui-id: Yx41df
 #: src/modules/auth/sign-in-up/components/FooterNote.tsx
@@ -3692,11 +3692,11 @@ msgstr "檢查您的電子郵件"
 msgid "Check your inbox to verify your new email address."
 msgstr "請檢查您的收件匣以驗證新的電子郵件地址。"
 
-#. js-lingui-id: SxwQE8
+#. js-lingui-id: 2JG4PX
 #: src/modules/settings/billing/hooks/useHandleCheckoutSession.ts
 #: src/modules/settings/billing/hooks/useHandleCheckoutSession.ts
-msgid "Checkout session error. Please retry or contact Twenty team"
-msgstr "結賬會話錯誤。請重試或聯繫 Twenty 團隊"
+msgid "Checkout session error. Please retry or contact support"
+msgstr ""
 
 #. js-lingui-id: SviKkE
 #: src/pages/settings/profile/appearance/components/LocalePicker.tsx
@@ -4305,6 +4305,16 @@ msgstr "配置 IMAP 設定以接收和同步您的電子郵件。"
 msgid "Configure SMTP settings to send emails from your account."
 msgstr "配置 SMTP 設定以從您的帳戶發送電子郵件。"
 
+#. js-lingui-id: 6ehOVl
+#: src/modules/settings/mcp-and-apis/utils/buildMcpSetupCategories.tsx
+msgid "Configure the CRM MCP server manually in Cascade."
+msgstr ""
+
+#. js-lingui-id: 4ya5X9
+#: src/modules/settings/mcp-and-apis/utils/buildMcpSetupCategories.tsx
+msgid "Configure the CRM MCP server manually in Cline."
+msgstr ""
+
 #. js-lingui-id: TiCmQz
 #: src/modules/settings/admin-panel/ai/components/SettingsAdminAI.tsx
 msgid "Configure the default AI models for all workspaces"
@@ -4319,16 +4329,6 @@ msgstr "透過 Warp 的代理程式設定來設定遠端 MCP 伺服器。"
 #: src/modules/settings/mcp-and-apis/utils/buildMcpSetupCategories.tsx
 msgid "Configure the remote server in Amazon Q Developer's MCP settings."
 msgstr "在 Amazon Q Developer 的 MCP 設定中設定遠端伺服器。"
-
-#. js-lingui-id: g1/8jH
-#: src/modules/settings/mcp-and-apis/utils/buildMcpSetupCategories.tsx
-msgid "Configure the Twenty MCP server manually in Cascade."
-msgstr "在 Cascade 中手動設定 Twenty MCP 伺服器。"
-
-#. js-lingui-id: XiyvRh
-#: src/modules/settings/mcp-and-apis/utils/buildMcpSetupCategories.tsx
-msgid "Configure the Twenty MCP server manually in Cline."
-msgstr "在 Cline 中手動設定 Twenty MCP 伺服器。"
 
 #. js-lingui-id: qA9AGQ
 #: src/modules/settings/domains/components/SettingsDomainRecords.tsx
@@ -5249,6 +5249,11 @@ msgstr "每期信用"
 #: src/modules/settings/data-model/fields/forms/select/components/SettingsDataModelFieldSelectFormOptionRow.tsx
 msgid "Crimson"
 msgstr "緋紅色"
+
+#. js-lingui-id: sk+eeK
+#: src/modules/spreadsheet-import/steps/components/MatchColumnsStep/components/ColumnGrid.tsx
+msgid "CRM fields"
+msgstr ""
 
 #. js-lingui-id: 6Oaeoc
 #: src/modules/logic-functions/utils/getLogicFunctionTriggerLabel.ts
@@ -7668,10 +7673,10 @@ msgstr "取消時間間隔切換時出現錯誤。"
 msgid "Error while cancelling plan switching."
 msgstr "取消方案切換時出現錯誤。"
 
-#. js-lingui-id: QmR+2U
+#. js-lingui-id: vWUy5k
 #: src/modules/settings/billing/hooks/useEndSubscriptionTrialPeriod.ts
-msgid "Error while ending trial period. Please contact Twenty team."
-msgstr "結束試用期時發生錯誤。請聯繫Twenty團隊。"
+msgid "Error while ending trial period. Please contact support."
+msgstr ""
 
 #. js-lingui-id: 5g78zo
 #: src/pages/settings/members/SettingsWorkspaceMember.tsx
@@ -9367,10 +9372,10 @@ msgstr "隱藏標籤"
 msgid "Hide system indexes"
 msgstr "隱藏系統索引"
 
-#. js-lingui-id: 1ETc0T
+#. js-lingui-id: 2gwmbI
 #: src/pages/settings/community/SettingsCommunity.tsx
-msgid "Hire a partner to help you implement and customize Twenty."
-msgstr "聘請合作夥伴協助你導入並自訂 Twenty。"
+msgid "Hire a partner to help you implement and customize CRM."
+msgstr ""
 
 #. js-lingui-id: i0qMbr
 #: src/modules/navigation/components/MainNavigationDrawerTabsRow.tsx
@@ -9383,7 +9388,7 @@ msgstr "首頁"
 msgid "Horizontal Bar Chart"
 msgstr ""
 
-#. js-lingui-id: WOXdI6
+#. js-lingui-id: 3aMh1k
 #: src/pages/settings/applications/utils/getCustomApplicationDescription.ts
 msgid ""
 "Host your workspace's customizations and overrides.\n"
@@ -9400,15 +9405,9 @@ msgid ""
 "\n"
 "If you are shaping one workspace for one business, keep it here. If you are building a reusable business app with its own data model, UI, and automation that should be versioned, shared, or installed across workspaces, create a dedicated app instead.\n"
 "\n"
-"#### Build your own app\n"
+"#### Source\n"
 "\n"
-"Scaffold a new app in one command:\n"
-"\n"
-"```bash\n"
-"npx create-twenty-app@latest my-twenty-app\n"
-"```\n"
-"\n"
-"See the [Getting Started guide](https://twenty.com/developers/extend/apps/getting-started) for the full walkthrough, and [Building Apps](https://twenty.com/developers/extend/apps/building) for the `defineApplication` / `defineEntity` APIs."
+"See the [ECN CRM source repository](https://github.com/serenelion/ecn-crm) for fork APIs and contribution guidance."
 msgstr ""
 
 #. js-lingui-id: yY8wAv
@@ -13470,10 +13469,10 @@ msgstr "入門包"
 msgid "One or more filters reference deactivated or deleted fields and will be automatically removed on save."
 msgstr "一或多個篩選器參照了已停用或已刪除的欄位，儲存時會自動移除。"
 
-#. js-lingui-id: 2l4SGU
+#. js-lingui-id: rYErhj
 #: src/pages/settings/enterprise/SettingsEnterprise.tsx
-msgid "One subscription provides one enterprise key that powers one production instance and one potential staging or test instance. To run a staging or test environment, install Twenty on a second server, activate it with this same enterprise key, then register that server as a development instance. Development instances unlock enterprise features without extra billing and do not count toward your production seats."
-msgstr "一份訂閱提供一組企業金鑰，可供一個正式環境執行個體與一個潛在的預備或測試執行個體使用。若要執行預備或測試環境，請在第二台伺服器上安裝 Twenty，使用相同的企業金鑰啟用，然後將該伺服器註冊為開發環境執行個體。開發環境執行個體可在不額外收費的情況下啟用企業功能，且不會計入您的正式環境席次數量。"
+msgid "One subscription provides one enterprise key that powers one production instance and one potential staging or test instance. To run a staging or test environment, install CRM on a second server, activate it with this same enterprise key, then register that server as a development instance. Development instances unlock enterprise features without extra billing and do not count toward your production seats."
+msgstr ""
 
 #. js-lingui-id: oFTo3P
 #: src/modules/settings/event-logs/components/SettingsLogs.tsx
@@ -13557,15 +13556,20 @@ msgstr "開啟維護中的整合，或預先填入支援 MCP 安裝連結的用�
 msgid "Open as link"
 msgstr "作為連結開啟"
 
-#. js-lingui-id: n0vVgf
+#. js-lingui-id: FfHc+t
 #: src/modules/settings/mcp-and-apis/utils/buildMcpSetupCategories.tsx
-msgid "Open Claude with the Twenty connector name and MCP URL prefilled."
-msgstr "開啟 Claude，並預先填入 Twenty 連接器名稱與 MCP URL。"
+msgid "Open Claude with the CRM connector name and MCP URL prefilled."
+msgstr ""
 
-#. js-lingui-id: +n2jpB
+#. js-lingui-id: G2Z9EW
 #: src/modules/settings/mcp-and-apis/utils/buildMcpSetupCategories.tsx
-msgid "Open Cursor's MCP installer with the Twenty remote server config."
-msgstr "使用 Twenty 的遠端伺服器設定開啟 Cursor 的 MCP 安裝程式。"
+msgid "Open CRM's official ChatGPT integration for your workspace."
+msgstr ""
+
+#. js-lingui-id: dkcyL0
+#: src/modules/settings/mcp-and-apis/utils/buildMcpSetupCategories.tsx
+msgid "Open Cursor's MCP installer with the CRM remote server config."
+msgstr ""
 
 #. js-lingui-id: pZZH4Q
 #: src/modules/auth/sign-in-up/components/EmailVerificationSent.tsx
@@ -13604,15 +13608,10 @@ msgstr "開啟記錄的方式"
 msgid "Open records on a dedicated page"
 msgstr ""
 
-#. js-lingui-id: q170S2
+#. js-lingui-id: t//ofg
 #: src/modules/settings/mcp-and-apis/utils/buildMcpSetupCategories.tsx
-msgid "Open Replit with the Twenty remote server config."
-msgstr "使用 Twenty 的遠端伺服器設定開啟 Replit。"
-
-#. js-lingui-id: sBd/cl
-#: src/modules/settings/mcp-and-apis/utils/buildMcpSetupCategories.tsx
-msgid "Open Twenty's official ChatGPT integration for your workspace."
-msgstr "為您的工作區開啟 Twenty 官方的 ChatGPT 整合。"
+msgid "Open Replit with the CRM remote server config."
+msgstr ""
 
 #. js-lingui-id: OV5wZZ
 #: src/modules/navigation-menu-item/display/sections/components/NavigationDrawerOpenedSection.tsx
@@ -13900,10 +13899,10 @@ msgstr "頁面佈局"
 msgid "Page name"
 msgstr "頁面名稱"
 
-#. js-lingui-id: NRvxzv
+#. js-lingui-id: udqOvP
 #: src/pages/not-found/NotFound.tsx
-msgid "Page Not Found | Twenty"
-msgstr "找不到頁面 | Twenty"
+msgid "Page Not Found | CRM"
+msgstr ""
 
 #. js-lingui-id: sF+Xp9
 #: src/modules/settings/event-logs/components/EventLogTableSelector.tsx
@@ -17351,10 +17350,10 @@ msgstr "子欄位"
 msgid "Subdomain"
 msgstr "子域"
 
-#. js-lingui-id: Sv4BSp
+#. js-lingui-id: k6cRcJ
 #: src/modules/settings/billing/constants/SettingsBillingPlanComparisonRows.ts
-msgid "Subdomain (yourco.twenty.com)"
-msgstr "子網域 (yourco.twenty.com)"
+msgid "Subdomain (yourco.earthcare.network)"
+msgstr ""
 
 #. js-lingui-id: mGO3xy
 #: src/modules/auth/sign-in-up/components/internal/SignInUpWorkspaceCreationForm.tsx
@@ -17445,13 +17444,13 @@ msgstr "訂閱"
 msgid "Subscription activated."
 msgstr "訂閱已啟動。"
 
-#. js-lingui-id: 0okvpx
+#. js-lingui-id: EXo5x5
 #: src/modules/settings/billing/components/AddPaymentMethodForm.tsx
 #: src/modules/settings/billing/components/AddPaymentMethodForm.tsx
 #: src/modules/settings/billing/hooks/useSubmitSubscriptionPayment.ts
 #: src/modules/settings/billing/hooks/useSubmitSubscriptionPayment.ts
-msgid "Subscription error. Please retry or contact Twenty team"
-msgstr "訂閱錯誤。請重試或聯繫 Twenty 團隊"
+msgid "Subscription error. Please retry or contact support"
+msgstr ""
 
 #. js-lingui-id: FooJUj
 #. placeholder {0}: getTargetPlanLabel(targetPlanKey)
@@ -17840,14 +17839,14 @@ msgstr "適用於您的 OpenAI 相容供應商的 API 端點"
 msgid "The AWS region for Bedrock"
 msgstr "Bedrock 的 AWS 區域"
 
-#. js-lingui-id: HP7per
+#. js-lingui-id: oEdh7d
 #: src/pages/settings/applications/utils/getStandardApplicationDescription.ts
 msgid ""
-"The base data model every Twenty workspace runs on.\n"
+"The base data model every CRM workspace runs on.\n"
 "\n"
 "#### What \"foundation\" means\n"
 "\n"
-"Every Twenty workspace starts with this set of objects. They define the shape of your CRM, including relationships, activity, and reporting. Everything else, including marketplace apps, AI agents, and custom objects, plugs into them.\n"
+"Every CRM workspace starts with this set of objects. They define the shape of your CRM, including relationships, activity, and reporting. Everything else, including marketplace apps, AI agents, and custom objects, plugs into them.\n"
 "\n"
 "#### Included objects\n"
 "- **People & Companies**: contact and account records\n"
@@ -17855,24 +17854,11 @@ msgid ""
 "- **Notes & Tasks**: activity and follow-ups\n"
 "- **Workflows & Dashboards**: automation and reporting\n"
 "\n"
-"Remove this app and the rest of Twenty has nothing to hang off.\n"
+"Remove this app and the rest of CRM has nothing to hang off.\n"
 "\n"
-"#### Build your own app\n"
+"#### Source\n"
 "\n"
-"Extend Twenty with your own objects, fields, logic functions, or AI skills. Scaffold a new app in one command:\n"
-"\n"
-"```bash\n"
-"npx create-twenty-app@latest my-twenty-app\n"
-"```\n"
-"\n"
-"Then inside the folder:\n"
-"\n"
-"```bash\n"
-"cd my-twenty-app\n"
-"yarn twenty dev\n"
-"```\n"
-"\n"
-"See the [Getting Started guide](https://twenty.com/developers/extend/apps/getting-started) for the full walkthrough, and [Building Apps](https://twenty.com/developers/extend/apps/building) for the `defineApplication` / `defineEntity` APIs."
+"See the [ECN CRM source repository](https://github.com/serenelion/ecn-crm) for fork APIs and contribution guidance."
 msgstr ""
 
 #. js-lingui-id: /kfzmx
@@ -17962,10 +17948,10 @@ msgstr ""
 msgid "The page you're seeking is either gone or never was. Let's get you back on track"
 msgstr "您正在尋找的頁面已經消失或從未存在。讓我們幫助您回到正軌"
 
-#. js-lingui-id: Ya1wb4
+#. js-lingui-id: 9jqR5k
 #: src/pages/settings/legal/SettingsLegalDpaNew.tsx
-msgid "The PDF is pre-signed by Twenty and executed with your legal entity and authorized signatory."
-msgstr "此 PDF 已由 Twenty 預先簽署，並與您的法人實體與授權簽署人共同生效。"
+msgid "The PDF is pre-signed by Earth Care Network and executed with your legal entity and authorized signatory."
+msgstr ""
 
 #. js-lingui-id: wxyrqd
 #: src/modules/workflow/workflow-steps/workflow-actions/pick-record-action/components/WorkflowEditActionPickRecord.tsx
@@ -18843,11 +18829,6 @@ msgstr ""
 #: src/modules/settings/data-model/fields/forms/select/components/SettingsDataModelFieldSelectFormOptionRow.tsx
 msgid "Turquoise"
 msgstr "綠松石色"
-
-#. js-lingui-id: JnaRPe
-#: src/modules/spreadsheet-import/steps/components/MatchColumnsStep/components/ColumnGrid.tsx
-msgid "Twenty fields"
-msgstr "Twenty 欄位"
 
 #. js-lingui-id: YIjS4q
 #: src/modules/ai/components/SettingsAgentModelCapabilities.tsx
@@ -20375,10 +20356,10 @@ msgstr ""
 msgid "Weight"
 msgstr "權重"
 
-#. js-lingui-id: nTuObL
+#. js-lingui-id: grNq4v
 #: src/pages/auth/SignInUp.tsx
-msgid "Welcome to Twenty"
-msgstr "歡迎來到 Twenty"
+msgid "Welcome to CRM"
+msgstr ""
 
 #. js-lingui-id: t8ZvkC
 #: src/modules/onboarding/constants/WelcomeTitleMessage.ts

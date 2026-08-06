@@ -1237,6 +1237,11 @@ msgstr "Lisää luottokortti"
 msgid "Add Credit Card"
 msgstr "Lisää luottokortti"
 
+#. js-lingui-id: pASLW6
+#: src/modules/settings/mcp-and-apis/utils/buildMcpSetupCategories.tsx
+msgid "Add CRM as a Streamable HTTP extension in Goose."
+msgstr ""
+
 #. js-lingui-id: TXurH0
 #: src/modules/settings/domains/components/SettingsPublicDomainsListCard.tsx
 #: src/modules/settings/domains/components/SettingsPublicDomainsListCard.tsx
@@ -1449,35 +1454,35 @@ msgstr "Lisää SSO-identiteetintarjoaja"
 msgid "Add test input for evaluation (e.g., \"Find all customers in NY\")"
 msgstr ""
 
-#. js-lingui-id: FKGcEL
+#. js-lingui-id: 7aH4FT
 #: src/modules/settings/mcp-and-apis/utils/buildMcpSetupCategories.tsx
-msgid "Add the Twenty MCP server as a remote context server in Zed."
-msgstr "Lisää Twenty MCP -palvelin etäisenä kontekstipalvelimena Zedissä."
+msgid "Add the CRM MCP server as a remote context server in Zed."
+msgstr ""
 
-#. js-lingui-id: iA2nHX
+#. js-lingui-id: 5T9CXT
 #: src/modules/settings/mcp-and-apis/utils/buildMcpSetupCategories.tsx
-msgid "Add the Twenty MCP server from Augment Code settings."
-msgstr "Lisää Twenty MCP -palvelin Augment Code -asetuksista."
+msgid "Add the CRM MCP server from Augment Code settings."
+msgstr ""
 
-#. js-lingui-id: l+NzAk
+#. js-lingui-id: g8YpTg
 #: src/modules/settings/mcp-and-apis/utils/buildMcpSetupCategories.tsx
-msgid "Add the Twenty MCP server from Raycast's MCP commands or settings."
-msgstr "Lisää Twenty MCP -palvelin Raycastin MCP-komennoista tai -asetuksista."
+msgid "Add the CRM MCP server from Raycast's MCP commands or settings."
+msgstr ""
 
-#. js-lingui-id: j6G/yI
+#. js-lingui-id: aO0n/B
 #: src/modules/settings/mcp-and-apis/utils/buildMcpSetupCategories.tsx
-msgid "Add the Twenty MCP server in Gemini CLI settings."
-msgstr "Lisää Twenty MCP -palvelin Gemini CLI -asetuksissa."
+msgid "Add the CRM MCP server in Gemini CLI settings."
+msgstr ""
 
-#. js-lingui-id: /OyhlM
+#. js-lingui-id: N5PPOF
 #: src/modules/settings/mcp-and-apis/utils/buildMcpSetupCategories.tsx
-msgid "Add the Twenty MCP server to your LibreChat configuration file."
-msgstr "Lisää Twenty MCP -palvelin LibreChat-konfiguraatiotiedostoosi."
+msgid "Add the CRM MCP server to your LibreChat configuration file."
+msgstr ""
 
-#. js-lingui-id: K0DXoj
+#. js-lingui-id: o33QHw
 #: src/modules/settings/mcp-and-apis/utils/buildMcpSetupCategories.tsx
-msgid "Add the Twenty remote server with LM Studio's install link."
-msgstr "Lisää Twenty-etäpalvelin LM Studion asennuslinkillä."
+msgid "Add the CRM remote server with LM Studio's install link."
+msgstr ""
 
 #. js-lingui-id: 5+ttxv
 #: src/modules/settings/accounts/components/SettingsAccountsBlocklistInput.tsx
@@ -1493,11 +1498,6 @@ msgstr "Lisää suosikkilistalle"
 #: src/modules/settings/unsubscribe-topics/components/SettingsWorkspaceUnsubscribeTopicSection.tsx
 msgid "Add topic"
 msgstr "Lisää aihe"
-
-#. js-lingui-id: 4D/zWv
-#: src/modules/settings/mcp-and-apis/utils/buildMcpSetupCategories.tsx
-msgid "Add Twenty as a Streamable HTTP extension in Goose."
-msgstr "Lisää Twenty Gooseen Streamable HTTP -laajennuksena."
 
 #. js-lingui-id: XnwceV
 #: src/pages/settings/applications/components/SettingsApplicationRegistrationRedirectURIsInput.tsx
@@ -3096,10 +3096,10 @@ msgstr "Laskutusväli"
 msgid "Billing period"
 msgstr "Laskutusjakso"
 
-#. js-lingui-id: xF/NXI
+#. js-lingui-id: c85cgp
 #: src/modules/settings/billing/hooks/useBillingPortalSession.ts
-msgid "Billing portal session error. Please retry or contact Twenty team"
-msgstr "Laskutusportaalin istuntovirhe. Yritä uudelleen tai ota yhteyttä Twenty-tiimiin"
+msgid "Billing portal session error. Please retry or contact support"
+msgstr ""
 
 #. js-lingui-id: K1172m
 #: src/modules/settings/accounts/components/SettingsAccountsBlocklistSection.tsx
@@ -3228,10 +3228,10 @@ msgstr "Toimitetaan yhdessä {applicationName}-sovelluksen kanssa"
 msgid "by {author}"
 msgstr "tekijä: {author}"
 
-#. js-lingui-id: 8Pfllj
+#. js-lingui-id: u58QMg
 #: src/modules/auth/sign-in-up/components/FooterNote.tsx
-msgid "By using Twenty, you agree to the"
-msgstr "Twenty:tä käyttäessäsi hyväksyt"
+msgid "By using CRM, you agree to the"
+msgstr ""
 
 #. js-lingui-id: Yx41df
 #: src/modules/auth/sign-in-up/components/FooterNote.tsx
@@ -3692,11 +3692,11 @@ msgstr "Tarkista sähköpostisi"
 msgid "Check your inbox to verify your new email address."
 msgstr "Tarkista postilaatikkosi vahvistaaksesi uuden sähköpostiosoitteesi."
 
-#. js-lingui-id: SxwQE8
+#. js-lingui-id: 2JG4PX
 #: src/modules/settings/billing/hooks/useHandleCheckoutSession.ts
 #: src/modules/settings/billing/hooks/useHandleCheckoutSession.ts
-msgid "Checkout session error. Please retry or contact Twenty team"
-msgstr "Tarkista istunnovirhe. Yritä uudelleen tai ota yhteyttä Twenty-tiimiin"
+msgid "Checkout session error. Please retry or contact support"
+msgstr ""
 
 #. js-lingui-id: SviKkE
 #: src/pages/settings/profile/appearance/components/LocalePicker.tsx
@@ -4305,6 +4305,16 @@ msgstr "Määritä IMAP-asetukset vastaanottaaksesi ja synkronoidaksesi sähköp
 msgid "Configure SMTP settings to send emails from your account."
 msgstr "Määritä SMTP-asetukset lähettääksesi sähköposteja tililtäsi."
 
+#. js-lingui-id: 6ehOVl
+#: src/modules/settings/mcp-and-apis/utils/buildMcpSetupCategories.tsx
+msgid "Configure the CRM MCP server manually in Cascade."
+msgstr ""
+
+#. js-lingui-id: 4ya5X9
+#: src/modules/settings/mcp-and-apis/utils/buildMcpSetupCategories.tsx
+msgid "Configure the CRM MCP server manually in Cline."
+msgstr ""
+
 #. js-lingui-id: TiCmQz
 #: src/modules/settings/admin-panel/ai/components/SettingsAdminAI.tsx
 msgid "Configure the default AI models for all workspaces"
@@ -4319,16 +4329,6 @@ msgstr "Määritä etä-MCP-palvelin Warpin agenttiasetuksissa."
 #: src/modules/settings/mcp-and-apis/utils/buildMcpSetupCategories.tsx
 msgid "Configure the remote server in Amazon Q Developer's MCP settings."
 msgstr "Määritä etäpalvelin Amazon Q Developerin MCP-asetuksissa."
-
-#. js-lingui-id: g1/8jH
-#: src/modules/settings/mcp-and-apis/utils/buildMcpSetupCategories.tsx
-msgid "Configure the Twenty MCP server manually in Cascade."
-msgstr "Määritä Twenty MCP -palvelin manuaalisesti Cascadessa."
-
-#. js-lingui-id: XiyvRh
-#: src/modules/settings/mcp-and-apis/utils/buildMcpSetupCategories.tsx
-msgid "Configure the Twenty MCP server manually in Cline."
-msgstr "Määritä Twenty MCP -palvelin manuaalisesti Clinessä."
 
 #. js-lingui-id: qA9AGQ
 #: src/modules/settings/domains/components/SettingsDomainRecords.tsx
@@ -5249,6 +5249,11 @@ msgstr "krediittiä/kausi"
 #: src/modules/settings/data-model/fields/forms/select/components/SettingsDataModelFieldSelectFormOptionRow.tsx
 msgid "Crimson"
 msgstr "Karmiininpunainen"
+
+#. js-lingui-id: sk+eeK
+#: src/modules/spreadsheet-import/steps/components/MatchColumnsStep/components/ColumnGrid.tsx
+msgid "CRM fields"
+msgstr ""
 
 #. js-lingui-id: 6Oaeoc
 #: src/modules/logic-functions/utils/getLogicFunctionTriggerLabel.ts
@@ -7668,10 +7673,10 @@ msgstr "Virhe jaksotuksen peruutuksessa."
 msgid "Error while cancelling plan switching."
 msgstr "Virhe suunnitelman peruutuksessa."
 
-#. js-lingui-id: QmR+2U
+#. js-lingui-id: vWUy5k
 #: src/modules/settings/billing/hooks/useEndSubscriptionTrialPeriod.ts
-msgid "Error while ending trial period. Please contact Twenty team."
-msgstr "Virhe kokeilujakson päättämisessä. Ota yhteyttä Twenty -tiimiin."
+msgid "Error while ending trial period. Please contact support."
+msgstr ""
 
 #. js-lingui-id: 5g78zo
 #: src/pages/settings/members/SettingsWorkspaceMember.tsx
@@ -9367,10 +9372,10 @@ msgstr "Piilota otsikko"
 msgid "Hide system indexes"
 msgstr "Piilota järjestelmäindeksit"
 
-#. js-lingui-id: 1ETc0T
+#. js-lingui-id: 2gwmbI
 #: src/pages/settings/community/SettingsCommunity.tsx
-msgid "Hire a partner to help you implement and customize Twenty."
-msgstr "Palkkaa kumppani auttamaan Twentyn käyttöönotossa ja räätälöinnissä."
+msgid "Hire a partner to help you implement and customize CRM."
+msgstr ""
 
 #. js-lingui-id: i0qMbr
 #: src/modules/navigation/components/MainNavigationDrawerTabsRow.tsx
@@ -9383,7 +9388,7 @@ msgstr "Koti"
 msgid "Horizontal Bar Chart"
 msgstr ""
 
-#. js-lingui-id: WOXdI6
+#. js-lingui-id: 3aMh1k
 #: src/pages/settings/applications/utils/getCustomApplicationDescription.ts
 msgid ""
 "Host your workspace's customizations and overrides.\n"
@@ -9400,39 +9405,10 @@ msgid ""
 "\n"
 "If you are shaping one workspace for one business, keep it here. If you are building a reusable business app with its own data model, UI, and automation that should be versioned, shared, or installed across workspaces, create a dedicated app instead.\n"
 "\n"
-"#### Build your own app\n"
+"#### Source\n"
 "\n"
-"Scaffold a new app in one command:\n"
-"\n"
-"```bash\n"
-"npx create-twenty-app@latest my-twenty-app\n"
-"```\n"
-"\n"
-"See the [Getting Started guide](https://twenty.com/developers/extend/apps/getting-started) for the full walkthrough, and [Building Apps](https://twenty.com/developers/extend/apps/building) for the `defineApplication` / `defineEntity` APIs."
+"See the [ECN CRM source repository](https://github.com/serenelion/ecn-crm) for fork APIs and contribution guidance."
 msgstr ""
-"Isännöi työtilasi mukautuksia ja ylikirjoituksia.\n"
-"\n"
-"#### Mitä se sisältää\n"
-"Kaikki standardisovelluksen päälle luomasi laajennukset ryhmitellään Custom-osion alle. Se pitää skeemamuutokset, käyttöliittymämuutokset ja työtilakohtaisen logiikan yhdessä paikassa.\n"
-"\n"
-"- Mukautetut objektit ja kentät omaa tietomalliasi varten\n"
-"- Näkymät, navigointikohteet ja tietueasettelut, jotka määrittävät, miten tiimisi työskentelee\n"
-"- Logiikkafunktiot, käyttöliittymäkomponentit ja agentit, jotka automatisoivat tai laajentavat työtilaa\n"
-"\n"
-"#### Miksi se on olemassa\n"
-"Käytä tätä sovellusta työtilakohtaisiin mukautuksiin, joiden tulee pysyä paikallisina tässä työtilassa.\n"
-"\n"
-"Jos muokkaat yhtä työtilaa yhtä yritystä varten, pidä se täällä. Jos rakennat uudelleenkäytettävää liiketoimintasovellusta, jolla on oma tietomalli, käyttöliittymä ja automaatio ja joka tulisi versioida, jakaa tai asentaa useisiin työtiloihin, luo sen sijaan erillinen sovellus.\n"
-"\n"
-"#### Rakenna oma sovellus\n"
-"\n"
-"Luo uuden sovelluksen runko yhdellä komennolla:\n"
-"\n"
-"```bash\n"
-"npx create-twenty-app@latest my-twenty-app\n"
-"```\n"
-"\n"
-"Katso täydellinen läpikäynti [Aloitusoppaasta](https://twenty.com/developers/extend/apps/getting-started) ja kohdassa [Sovellusten rakentaminen](https://twenty.com/developers/extend/apps/building) kerrotaan `defineApplication` / `defineEntity` API:ista."
 
 #. js-lingui-id: yY8wAv
 #: src/modules/workflow/workflow-steps/workflow-actions/delay-actions/components/WorkflowEditActionDelay.tsx
@@ -13493,10 +13469,10 @@ msgstr "Perehdytyspaketit"
 msgid "One or more filters reference deactivated or deleted fields and will be automatically removed on save."
 msgstr "Yksi tai useampi suodatin viittaa poissa käytöstä oleviin tai poistettuihin kenttiin ja poistetaan automaattisesti tallennettaessa."
 
-#. js-lingui-id: 2l4SGU
+#. js-lingui-id: rYErhj
 #: src/pages/settings/enterprise/SettingsEnterprise.tsx
-msgid "One subscription provides one enterprise key that powers one production instance and one potential staging or test instance. To run a staging or test environment, install Twenty on a second server, activate it with this same enterprise key, then register that server as a development instance. Development instances unlock enterprise features without extra billing and do not count toward your production seats."
-msgstr "Yksi tilaus sisältää yhden yritysavaimen, joka tukee yhtä tuotantoympäristöä ja yhtä mahdollista staging- tai testausympäristöä. Ajaaksesi staging- tai testausympäristöä asenna Twenty toiselle palvelimelle, aktivoi se samalla yritysavaimella ja rekisteröi palvelin kehitysympäristönä. Kehitysympäristöt avaavat yritysominaisuudet ilman lisälaskutusta eivätkä laskeudu tuotantopaikkoihin."
+msgid "One subscription provides one enterprise key that powers one production instance and one potential staging or test instance. To run a staging or test environment, install CRM on a second server, activate it with this same enterprise key, then register that server as a development instance. Development instances unlock enterprise features without extra billing and do not count toward your production seats."
+msgstr ""
 
 #. js-lingui-id: oFTo3P
 #: src/modules/settings/event-logs/components/SettingsLogs.tsx
@@ -13580,15 +13556,20 @@ msgstr "Avaa ylläpidetty integraatio tai esitäytä asiakkaat, jotka hyväksyv�
 msgid "Open as link"
 msgstr "Avaa linkkinä"
 
-#. js-lingui-id: n0vVgf
+#. js-lingui-id: FfHc+t
 #: src/modules/settings/mcp-and-apis/utils/buildMcpSetupCategories.tsx
-msgid "Open Claude with the Twenty connector name and MCP URL prefilled."
-msgstr "Avaa Claude siten, että Twenty-liitännän nimi ja MCP-URL on esitäytetty."
+msgid "Open Claude with the CRM connector name and MCP URL prefilled."
+msgstr ""
 
-#. js-lingui-id: +n2jpB
+#. js-lingui-id: G2Z9EW
 #: src/modules/settings/mcp-and-apis/utils/buildMcpSetupCategories.tsx
-msgid "Open Cursor's MCP installer with the Twenty remote server config."
-msgstr "Avaa Cursorin MCP-asennusohjelma Twenty-etäpalvelimen määrityksellä."
+msgid "Open CRM's official ChatGPT integration for your workspace."
+msgstr ""
+
+#. js-lingui-id: dkcyL0
+#: src/modules/settings/mcp-and-apis/utils/buildMcpSetupCategories.tsx
+msgid "Open Cursor's MCP installer with the CRM remote server config."
+msgstr ""
 
 #. js-lingui-id: pZZH4Q
 #: src/modules/auth/sign-in-up/components/EmailVerificationSent.tsx
@@ -13627,15 +13608,10 @@ msgstr "Avaa tietueet kohteessa"
 msgid "Open records on a dedicated page"
 msgstr ""
 
-#. js-lingui-id: q170S2
+#. js-lingui-id: t//ofg
 #: src/modules/settings/mcp-and-apis/utils/buildMcpSetupCategories.tsx
-msgid "Open Replit with the Twenty remote server config."
-msgstr "Avaa Replit Twenty-etäpalvelimen määrityksellä."
-
-#. js-lingui-id: sBd/cl
-#: src/modules/settings/mcp-and-apis/utils/buildMcpSetupCategories.tsx
-msgid "Open Twenty's official ChatGPT integration for your workspace."
-msgstr "Avaa Twentyn virallinen ChatGPT-integraatio työtilaasi varten."
+msgid "Open Replit with the CRM remote server config."
+msgstr ""
 
 #. js-lingui-id: OV5wZZ
 #: src/modules/navigation-menu-item/display/sections/components/NavigationDrawerOpenedSection.tsx
@@ -13923,10 +13899,10 @@ msgstr "Sivun asettelut"
 msgid "Page name"
 msgstr "Sivun nimi"
 
-#. js-lingui-id: NRvxzv
+#. js-lingui-id: udqOvP
 #: src/pages/not-found/NotFound.tsx
-msgid "Page Not Found | Twenty"
-msgstr "Sivua ei löydy | Twenty"
+msgid "Page Not Found | CRM"
+msgstr ""
 
 #. js-lingui-id: sF+Xp9
 #: src/modules/settings/event-logs/components/EventLogTableSelector.tsx
@@ -17374,10 +17350,10 @@ msgstr "Alikentät"
 msgid "Subdomain"
 msgstr "Alidomain"
 
-#. js-lingui-id: Sv4BSp
+#. js-lingui-id: k6cRcJ
 #: src/modules/settings/billing/constants/SettingsBillingPlanComparisonRows.ts
-msgid "Subdomain (yourco.twenty.com)"
-msgstr "Aliverkkotunnus (yourco.twenty.com)"
+msgid "Subdomain (yourco.earthcare.network)"
+msgstr ""
 
 #. js-lingui-id: mGO3xy
 #: src/modules/auth/sign-in-up/components/internal/SignInUpWorkspaceCreationForm.tsx
@@ -17468,13 +17444,13 @@ msgstr "Tilaus"
 msgid "Subscription activated."
 msgstr "Tilaus aktivoitu."
 
-#. js-lingui-id: 0okvpx
+#. js-lingui-id: EXo5x5
 #: src/modules/settings/billing/components/AddPaymentMethodForm.tsx
 #: src/modules/settings/billing/components/AddPaymentMethodForm.tsx
 #: src/modules/settings/billing/hooks/useSubmitSubscriptionPayment.ts
 #: src/modules/settings/billing/hooks/useSubmitSubscriptionPayment.ts
-msgid "Subscription error. Please retry or contact Twenty team"
-msgstr "Tilausvirhe. Yritä uudelleen tai ota yhteyttä Twenty-tiimiin"
+msgid "Subscription error. Please retry or contact support"
+msgstr ""
 
 #. js-lingui-id: FooJUj
 #. placeholder {0}: getTargetPlanLabel(targetPlanKey)
@@ -17863,14 +17839,14 @@ msgstr "OpenAI-yhteensopivan tarjoajasi API-päätepiste"
 msgid "The AWS region for Bedrock"
 msgstr "AWS-alue Bedrockille"
 
-#. js-lingui-id: HP7per
+#. js-lingui-id: oEdh7d
 #: src/pages/settings/applications/utils/getStandardApplicationDescription.ts
 msgid ""
-"The base data model every Twenty workspace runs on.\n"
+"The base data model every CRM workspace runs on.\n"
 "\n"
 "#### What \"foundation\" means\n"
 "\n"
-"Every Twenty workspace starts with this set of objects. They define the shape of your CRM, including relationships, activity, and reporting. Everything else, including marketplace apps, AI agents, and custom objects, plugs into them.\n"
+"Every CRM workspace starts with this set of objects. They define the shape of your CRM, including relationships, activity, and reporting. Everything else, including marketplace apps, AI agents, and custom objects, plugs into them.\n"
 "\n"
 "#### Included objects\n"
 "- **People & Companies**: contact and account records\n"
@@ -17878,55 +17854,12 @@ msgid ""
 "- **Notes & Tasks**: activity and follow-ups\n"
 "- **Workflows & Dashboards**: automation and reporting\n"
 "\n"
-"Remove this app and the rest of Twenty has nothing to hang off.\n"
+"Remove this app and the rest of CRM has nothing to hang off.\n"
 "\n"
-"#### Build your own app\n"
+"#### Source\n"
 "\n"
-"Extend Twenty with your own objects, fields, logic functions, or AI skills. Scaffold a new app in one command:\n"
-"\n"
-"```bash\n"
-"npx create-twenty-app@latest my-twenty-app\n"
-"```\n"
-"\n"
-"Then inside the folder:\n"
-"\n"
-"```bash\n"
-"cd my-twenty-app\n"
-"yarn twenty dev\n"
-"```\n"
-"\n"
-"See the [Getting Started guide](https://twenty.com/developers/extend/apps/getting-started) for the full walkthrough, and [Building Apps](https://twenty.com/developers/extend/apps/building) for the `defineApplication` / `defineEntity` APIs."
+"See the [ECN CRM source repository](https://github.com/serenelion/ecn-crm) for fork APIs and contribution guidance."
 msgstr ""
-"Perustietomalli, jonka varaan jokainen Twenty-työtila rakentuu.\n"
-"\n"
-"#### Mitä \"perusta\" tarkoittaa\n"
-"\n"
-"Jokainen Twenty-työtila alkaa tästä objektijoukosta. Ne määrittelevät CRM-järjestelmäsi rakenteen, mukaan lukien suhteet, aktiivisuuden ja raportoinnin. Kaikki muu, mukaan lukien markkinapaikan sovellukset, AI-agentit ja mukautetut objektit, kytkeytyy niihin.\n"
-"\n"
-"#### Sisältyvät objektit\n"
-"- **Henkilöt & yritykset**: yhteystieto- ja tilitietueet\n"
-"- **Mahdollisuudet**: myyntiputkesi\n"
-"- **Muistiinpanot & tehtävät**: aktiivisuus ja jälkitoimet\n"
-"- **Työnkulut & koontinäytöt**: automaatio ja raportointi\n"
-"\n"
-"Jos poistat tämän sovelluksen, muulla Twentyllä ei ole mitään, mihin kiinnittyä.\n"
-"\n"
-"#### Rakenna oma sovellus\n"
-"\n"
-"Laajenna Twentyä omilla objekteilla, kentillä, logiikkafunktioilla tai AI-taidoilla. Luo uuden sovelluksen runko yhdellä komennolla:\n"
-"\n"
-"```bash\n"
-"npx create-twenty-app@latest my-twenty-app\n"
-"```\n"
-"\n"
-"Siirry sitten kansioon:\n"
-"\n"
-"```bash\n"
-"cd my-twenty-app\n"
-"yarn twenty dev\n"
-"```\n"
-"\n"
-"Katso täydellinen läpikäynti [Aloitusoppaasta](https://twenty.com/developers/extend/apps/getting-started) ja kohdassa [Sovellusten rakentaminen](https://twenty.com/developers/extend/apps/building) kerrotaan `defineApplication` / `defineEntity` API:ista."
 
 #. js-lingui-id: /kfzmx
 #: src/pages/settings/legal/SettingsLegalDpa.tsx
@@ -18015,10 +17948,10 @@ msgstr ""
 msgid "The page you're seeking is either gone or never was. Let's get you back on track"
 msgstr "Haettua sivua ei ole olemassa tai sitä ei ole koskaan ollut. Ohjataan sinut takaisin oikealle polulle"
 
-#. js-lingui-id: Ya1wb4
+#. js-lingui-id: 9jqR5k
 #: src/pages/settings/legal/SettingsLegalDpaNew.tsx
-msgid "The PDF is pre-signed by Twenty and executed with your legal entity and authorized signatory."
-msgstr "PDF on Twentyn esiallekirjoittama ja täydennetään oikeushenkilösi ja valtuutetun allekirjoittajasi tiedoilla."
+msgid "The PDF is pre-signed by Earth Care Network and executed with your legal entity and authorized signatory."
+msgstr ""
 
 #. js-lingui-id: wxyrqd
 #: src/modules/workflow/workflow-steps/workflow-actions/pick-record-action/components/WorkflowEditActionPickRecord.tsx
@@ -18896,11 +18829,6 @@ msgstr ""
 #: src/modules/settings/data-model/fields/forms/select/components/SettingsDataModelFieldSelectFormOptionRow.tsx
 msgid "Turquoise"
 msgstr "Turkoosi"
-
-#. js-lingui-id: JnaRPe
-#: src/modules/spreadsheet-import/steps/components/MatchColumnsStep/components/ColumnGrid.tsx
-msgid "Twenty fields"
-msgstr "Twenty-kentät"
 
 #. js-lingui-id: YIjS4q
 #: src/modules/ai/components/SettingsAgentModelCapabilities.tsx
@@ -20428,10 +20356,10 @@ msgstr ""
 msgid "Weight"
 msgstr "Painoarvo"
 
-#. js-lingui-id: nTuObL
+#. js-lingui-id: grNq4v
 #: src/pages/auth/SignInUp.tsx
-msgid "Welcome to Twenty"
-msgstr "Tervetuloa Twentyyn"
+msgid "Welcome to CRM"
+msgstr ""
 
 #. js-lingui-id: t8ZvkC
 #: src/modules/onboarding/constants/WelcomeTitleMessage.ts

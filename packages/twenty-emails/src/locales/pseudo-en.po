@@ -79,13 +79,13 @@ msgid "Disabled"
 msgstr ""
 
 #. js-lingui-explicit-id
-#: src/emails/server-admin-access-changed.email.tsx
-msgid "Enabled"
+#: src/components/Footer.tsx
+msgid "Earth Care Network — CRM (AGPL)"
 msgstr ""
 
 #. js-lingui-explicit-id
-#: src/components/Footer.tsx
-msgid "Github"
+#: src/emails/server-admin-access-changed.email.tsx
+msgid "Enabled"
 msgstr ""
 
 #. js-lingui-explicit-id
@@ -180,7 +180,7 @@ msgstr ""
 
 #. js-lingui-explicit-id
 #: src/components/Footer.tsx
-msgid "Read Twenty's user guide"
+msgid "Read Earth Care Network documentation"
 msgstr ""
 
 #. js-lingui-explicit-id
@@ -195,7 +195,7 @@ msgstr ""
 
 #. js-lingui-explicit-id
 #: src/components/Footer.tsx
-msgid "San Francisco / Paris"
+msgid "See NOTICE.ECN in source for attribution"
 msgstr ""
 
 #. js-lingui-explicit-id
@@ -234,6 +234,11 @@ msgid "Set your password 🗝"
 msgstr ""
 
 #. js-lingui-explicit-id
+#: src/components/Footer.tsx
+msgid "Source"
+msgstr ""
+
+#. js-lingui-explicit-id
 #: src/emails/clean-suspended-workspace.email.tsx
 msgid "Start a new workspace"
 msgstr ""
@@ -260,11 +265,6 @@ msgstr ""
 
 #. js-lingui-explicit-id
 #: src/components/Footer.tsx
-msgid "Twenty.com, Public Benefit Corporation"
-msgstr ""
-
-#. js-lingui-explicit-id
-#: src/components/Footer.tsx
 msgid "User guide"
 msgstr ""
 
@@ -281,17 +281,17 @@ msgstr ""
 
 #. js-lingui-explicit-id
 #: src/components/Footer.tsx
-msgid "Visit Twenty's developer documentation"
+msgid "View CRM source code"
 msgstr ""
 
 #. js-lingui-explicit-id
 #: src/components/Footer.tsx
-msgid "Visit Twenty's GitHub repository"
+msgid "Visit CRM developer documentation"
 msgstr ""
 
 #. js-lingui-explicit-id
 #: src/components/Footer.tsx
-msgid "Visit Twenty's website"
+msgid "Visit Earth Care Network's website"
 msgstr ""
 
 #. js-lingui-explicit-id
