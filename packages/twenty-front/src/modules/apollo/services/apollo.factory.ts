@@ -37,7 +37,7 @@ import { getGenericOperationName, isDefined } from 'twenty-shared/utils';
 import { REACT_APP_SERVER_BASE_URL } from '~/config';
 import { isUndefinedOrNull } from '~/utils/isUndefinedOrNull';
 
-const logger = loggerLink(() => 'Twenty');
+const logger = loggerLink(() => 'CRM');
 
 // Shared across all ApolloFactory instances so concurrent
 // UNAUTHENTICATED errors from /graphql and /metadata clients

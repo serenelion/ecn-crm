@@ -11,7 +11,7 @@ export const MCP_SETUP = {
   },
   server: {
     name: 'twenty',
-    displayName: 'Twenty',
+    displayName: 'CRM',
   },
   clientDocsUrls: {
     augment: 'https://docs.augmentcode.com/setup-augment/mcp',
