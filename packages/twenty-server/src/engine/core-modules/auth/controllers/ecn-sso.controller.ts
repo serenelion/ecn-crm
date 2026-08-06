@@ -1,7 +1,9 @@
 import {
+  Body,
   Controller,
   Get,
   HttpStatus,
+  Post,
   Query,
   Res,
   UseFilters,
@@ -55,12 +57,18 @@ export class EcnSsoController {
     private readonly workspaceRepository: Repository<WorkspaceEntity>,
   ) {}
 
+  // Product Open path is GET ?token= (window.open). Hermes/HOSTED-O2 probe also
+  // uses POST JSON {token} — both verbs must hit Nest (not SPA) and ≠404.
   @Get('sso')
+  @Post('sso')
   @UseGuards(PublicEndpointGuard, NoPermissionGuard)
   async ecnSso(
-    @Query('token') token: string | undefined,
+    @Query('token') queryToken: string | undefined,
+    @Body() body: { token?: string } | undefined,
     @Res() res: Response,
   ): Promise<Response | void> {
+    const token = (queryToken || body?.token || '').trim() || undefined;
+
     if (!isDefined(token) || token.length === 0) {
       return this.jsonError(res, HttpStatus.BAD_REQUEST, 'missing_token');
     }

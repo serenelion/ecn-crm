@@ -206,10 +206,21 @@ describe('EcnSsoController', () => {
     const { controller } = makeController();
     const res = makeResponse();
 
-    await controller.ecnSso(undefined, res);
+    await controller.ecnSso(undefined, undefined, res);
 
     expect(res.status).toHaveBeenCalledWith(400);
     expect(res.json).toHaveBeenCalledWith({ error: 'missing_token' });
+  });
+
+  it('accepts token from POST body (Hermes HOSTED-O2 probe shape)', async () => {
+    const token = buildToken({}, OTHER_KEY);
+    const { controller } = makeController();
+    const res = makeResponse();
+
+    await controller.ecnSso(undefined, { token }, res);
+
+    expect(res.status).toHaveBeenCalledWith(401);
+    expect(res.json).toHaveBeenCalledWith({ error: 'invalid_token' });
   });
 
   it('returns 500 JSON when ECN_SSO_HMAC_KEY is missing', async () => {
@@ -218,7 +229,7 @@ describe('EcnSsoController', () => {
     const { controller } = makeController();
     const res = makeResponse();
 
-    await controller.ecnSso('any-token', res);
+    await controller.ecnSso('any-token', undefined, res);
 
     expect(res.status).toHaveBeenCalledWith(500);
     expect(res.json).toHaveBeenCalledWith({ error: 'server_not_configured' });
@@ -229,7 +240,7 @@ describe('EcnSsoController', () => {
     const { controller, workspaceRepository } = makeController();
     const res = makeResponse();
 
-    await controller.ecnSso(token, res);
+    await controller.ecnSso(token, undefined, res);
 
     expect(res.status).toHaveBeenCalledWith(401);
     expect(res.json).toHaveBeenCalledWith({ error: 'invalid_token' });
@@ -241,7 +252,7 @@ describe('EcnSsoController', () => {
     const { controller } = makeController();
     const res = makeResponse();
 
-    await controller.ecnSso(token, res);
+    await controller.ecnSso(token, undefined, res);
 
     expect(res.status).toHaveBeenCalledWith(401);
     expect(res.json).toHaveBeenCalledWith({ error: 'invalid_token' });
@@ -252,7 +263,7 @@ describe('EcnSsoController', () => {
     const { controller } = makeController();
     const res = makeResponse();
 
-    await controller.ecnSso(token, res);
+    await controller.ecnSso(token, undefined, res);
 
     expect(res.status).toHaveBeenCalledWith(401);
     expect(res.json).toHaveBeenCalledWith({ error: 'invalid_token' });
@@ -263,7 +274,7 @@ describe('EcnSsoController', () => {
     const { controller } = makeController();
     const res = makeResponse();
 
-    await controller.ecnSso(token, res);
+    await controller.ecnSso(token, undefined, res);
 
     expect(res.status).toHaveBeenCalledWith(401);
     expect(res.json).toHaveBeenCalledWith({ error: 'invalid_token' });
@@ -277,7 +288,7 @@ describe('EcnSsoController', () => {
     const token = buildToken({ jti: 'used-jti' });
     const res = makeResponse();
 
-    await controller.ecnSso(token, res);
+    await controller.ecnSso(token, undefined, res);
 
     expect(res.status).toHaveBeenCalledWith(401);
     expect(res.json).toHaveBeenCalledWith({ error: 'token_replayed' });
@@ -292,7 +303,7 @@ describe('EcnSsoController', () => {
 
     const res = makeResponse();
 
-    await controller.ecnSso(token, res);
+    await controller.ecnSso(token, undefined, res);
 
     expect(res.status).toHaveBeenCalledWith(404);
     expect(res.json).toHaveBeenCalledWith({ error: 'workspace_not_found' });
@@ -327,7 +338,7 @@ describe('EcnSsoController', () => {
 
     const res = makeResponse();
 
-    await controller.ecnSso(token, res);
+    await controller.ecnSso(token, undefined, res);
 
     expect(userService.findUserByEmail).toHaveBeenCalledWith(
       'existing@example.com',
@@ -381,7 +392,7 @@ describe('EcnSsoController', () => {
 
     const res = makeResponse();
 
-    await controller.ecnSso(token, res);
+    await controller.ecnSso(token, undefined, res);
 
     expect(authService.formatUserDataPayload).toHaveBeenCalledWith(
       expect.objectContaining({
@@ -432,7 +443,7 @@ describe('EcnSsoController', () => {
 
     expect(replayCache.has('first-time-jti')).toBe(false);
 
-    await controller.ecnSso(token, makeResponse());
+    await controller.ecnSso(token, undefined, makeResponse());
 
     expect(replayCache.has('first-time-jti')).toBe(true);
   });
@@ -459,7 +470,7 @@ describe('EcnSsoController', () => {
 
     const res = makeResponse();
 
-    await controller.ecnSso(token, res);
+    await controller.ecnSso(token, undefined, res);
 
     expect(
       guardRedirectService.getRedirectErrorUrlAndCaptureExceptions,
