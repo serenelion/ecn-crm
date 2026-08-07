@@ -4,26 +4,29 @@ import * as jwt from 'jsonwebtoken';
 // Mock the provision service — importing the real class pulls the entire
 // monorepo graph (workspace-manager, application, onboarding, user-role, etc.)
 // into the jest resolver. We only need the constructor token for DI shape.
-jest.mock('src/engine/core-modules/auth/services/ecn-provision.service', () => ({
-  EcnProvisionService: class EcnProvisionService {},
-  EcnProvisionError: class EcnProvisionError extends Error {
-    kind: 'subdomain_conflict' | 'provision_failed';
-    step?: string;
-    existingWorkspaceId?: string;
+jest.mock(
+  'src/engine/core-modules/auth/services/ecn-provision.service',
+  () => ({
+    EcnProvisionService: class EcnProvisionService {},
+    EcnProvisionError: class EcnProvisionError extends Error {
+      kind: 'subdomain_conflict' | 'provision_failed';
+      step?: string;
+      existingWorkspaceId?: string;
 
-    constructor(
-      kind: 'subdomain_conflict' | 'provision_failed',
-      step?: string,
-      existingWorkspaceId?: string,
-    ) {
-      super(kind);
-      this.name = 'EcnProvisionError';
-      this.kind = kind;
-      this.step = step;
-      this.existingWorkspaceId = existingWorkspaceId;
-    }
-  },
-}));
+      constructor(
+        kind: 'subdomain_conflict' | 'provision_failed',
+        step?: string,
+        existingWorkspaceId?: string,
+      ) {
+        super(kind);
+        this.name = 'EcnProvisionError';
+        this.kind = kind;
+        this.step = step;
+        this.existingWorkspaceId = existingWorkspaceId;
+      }
+    },
+  }),
+);
 jest.mock(
   'src/engine/core-modules/auth/services/ecn-sso-replay-cache.service',
   () => ({
@@ -52,9 +55,12 @@ jest.mock(
     },
   }),
 );
-jest.mock('src/engine/core-modules/auth/filters/auth-rest-api-exception.filter', () => ({
-  AuthRestApiExceptionFilter: class AuthRestApiExceptionFilter {},
-}));
+jest.mock(
+  'src/engine/core-modules/auth/filters/auth-rest-api-exception.filter',
+  () => ({
+    AuthRestApiExceptionFilter: class AuthRestApiExceptionFilter {},
+  }),
+);
 jest.mock('src/engine/guards/public-endpoint.guard', () => ({
   PublicEndpointGuard: class PublicEndpointGuard {},
 }));
@@ -63,13 +69,13 @@ jest.mock('src/engine/guards/no-permission.guard', () => ({
 }));
 
 // eslint-disable-next-line import/first
-import {
-  EcnProvisionController,
-} from './ecn-provision.controller';
+import { EcnProvisionController } from './ecn-provision.controller';
 // eslint-disable-next-line import/first
 import { EcnSsoReplayCacheService } from 'src/engine/core-modules/auth/services/ecn-sso-replay-cache.service';
 // eslint-disable-next-line @typescript-eslint/no-require-imports
-const { EcnProvisionError } = require('src/engine/core-modules/auth/services/ecn-provision.service');
+const {
+  EcnProvisionError,
+} = require('src/engine/core-modules/auth/services/ecn-provision.service');
 
 const HMAC_KEY = 'test-key-for-specs-only';
 const OTHER_KEY = 'not-the-right-key';
@@ -80,7 +86,13 @@ type BuildPayloadOverrides = {
   jti?: string;
   expiresIn?: number;
   iatOffsetSeconds?: number;
-  omitField?: 'org' | 'owner_email' | 'owner_first_name' | 'owner_last_name' | 'workspace_name' | 'jti';
+  omitField?:
+    | 'org'
+    | 'owner_email'
+    | 'owner_first_name'
+    | 'owner_last_name'
+    | 'workspace_name'
+    | 'jti';
 };
 
 const buildToken = (

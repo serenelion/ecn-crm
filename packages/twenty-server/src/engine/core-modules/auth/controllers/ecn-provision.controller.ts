@@ -96,8 +96,7 @@ export class EcnProvisionController {
         });
       }
 
-      const detail =
-        error instanceof Error ? error.message : 'invalid token';
+      const detail = error instanceof Error ? error.message : 'invalid token';
 
       return this.jsonError(res, HttpStatus.BAD_REQUEST, {
         error: 'invalid_token',
@@ -164,11 +163,7 @@ export class EcnProvisionController {
     );
   }
 
-  private jsonError(
-    res: Response,
-    status: number,
-    body: ErrorBody,
-  ): Response {
+  private jsonError(res: Response, status: number, body: ErrorBody): Response {
     return res.status(status).json(body);
   }
 }

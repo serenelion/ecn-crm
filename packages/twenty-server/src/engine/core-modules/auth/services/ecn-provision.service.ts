@@ -344,12 +344,7 @@ export class EcnProvisionService {
 
       return await queryRunner.manager.save(UserEntity, userToCreate);
     } catch (error) {
-      throw new EcnProvisionError(
-        'provision_failed',
-        'user',
-        undefined,
-        error,
-      );
+      throw new EcnProvisionError('provision_failed', 'user', undefined, error);
     }
   }
 
@@ -368,10 +363,7 @@ export class EcnProvisionService {
         workspaceId,
       });
 
-      return await queryRunner.manager.save(
-        UserWorkspaceEntity,
-        userWorkspace,
-      );
+      return await queryRunner.manager.save(UserWorkspaceEntity, userWorkspace);
     } catch (error) {
       throw new EcnProvisionError(
         'provision_failed',
