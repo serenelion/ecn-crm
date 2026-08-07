@@ -28,9 +28,12 @@ jest.mock(
     GuardRedirectService: class GuardRedirectService {},
   }),
 );
-jest.mock('src/engine/core-modules/auth/filters/auth-rest-api-exception.filter', () => ({
-  AuthRestApiExceptionFilter: class AuthRestApiExceptionFilter {},
-}));
+jest.mock(
+  'src/engine/core-modules/auth/filters/auth-rest-api-exception.filter',
+  () => ({
+    AuthRestApiExceptionFilter: class AuthRestApiExceptionFilter {},
+  }),
+);
 jest.mock('src/engine/guards/public-endpoint.guard', () => ({
   PublicEndpointGuard: class PublicEndpointGuard {},
 }));

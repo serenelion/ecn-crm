@@ -116,11 +116,7 @@ export class EcnSsoController {
     });
 
     if (!isDefined(workspace)) {
-      return this.jsonError(
-        res,
-        HttpStatus.NOT_FOUND,
-        'workspace_not_found',
-      );
+      return this.jsonError(res, HttpStatus.NOT_FOUND, 'workspace_not_found');
     }
 
     // Reserve the jti BEFORE signInUp so a concurrent duplicate request loses.
