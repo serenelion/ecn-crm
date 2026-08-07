@@ -355,9 +355,10 @@ describe('EcnSsoController', () => {
     expect(res.redirect).toHaveBeenCalledWith(
       'https://acme.example.com/verify?loginToken=login-token-xyz',
     );
+    expect(authService.checkAccessForSignIn).not.toHaveBeenCalled();
   });
 
-  it('calls signInUp with newUser payload when user does not exist', async () => {
+  it('admits a new launcher with no prior invitation (JWT is the trust anchor)', async () => {
     const token = buildToken({
       email: 'newperson@example.com',
       name: 'New Person',
@@ -372,6 +373,7 @@ describe('EcnSsoController', () => {
 
     workspaceRepository.findOne.mockResolvedValue(workspace);
     userService.findUserByEmail.mockResolvedValue(null);
+    authService.findInvitationForSignInUp.mockResolvedValue(undefined);
     authService.formatUserDataPayload.mockImplementation(
       (newUserPayload: unknown, existingUser: unknown) => ({
         userData: existingUser
@@ -403,16 +405,68 @@ describe('EcnSsoController', () => {
       }),
       null,
     );
+    expect(authService.checkAccessForSignIn).not.toHaveBeenCalled();
     expect(authService.signInUp).toHaveBeenCalledWith(
       expect.objectContaining({
         workspace,
         authParams: { provider: AuthProviderEnum.SSO },
+        invitation: undefined,
         userData: expect.objectContaining({ type: 'newUser' }),
       }),
     );
-    expect(loginTokenService.generateLoginToken).toHaveBeenCalled();
+    expect(loginTokenService.generateLoginToken).toHaveBeenCalledWith(
+      'newperson@example.com',
+      WORKSPACE_ID,
+      AuthProviderEnum.SSO,
+    );
     expect(res.redirect).toHaveBeenCalledWith(
       'https://acme.example.com/verify?loginToken=login-token-new',
+    );
+  });
+
+  it('still honors the invitation-present path (passes invitation to signInUp)', async () => {
+    const token = buildToken({ email: 'invited@example.com' });
+    const invitation = { id: 'invite-1', value: 'invite-token' };
+    const {
+      controller,
+      workspaceRepository,
+      userService,
+      authService,
+      loginTokenService,
+    } = makeController();
+
+    workspaceRepository.findOne.mockResolvedValue(workspace);
+    userService.findUserByEmail.mockResolvedValue(null);
+    authService.findInvitationForSignInUp.mockResolvedValue(invitation);
+    authService.formatUserDataPayload.mockReturnValue({
+      userData: {
+        type: 'newUser',
+        newUserPayload: { email: 'invited@example.com' },
+      },
+    });
+    authService.signInUp.mockResolvedValue({
+      user: { email: 'invited@example.com' },
+      workspace,
+    });
+    loginTokenService.generateLoginToken.mockResolvedValue({
+      token: 'login-token-inv',
+    });
+    authService.computeRedirectURI.mockReturnValue(
+      'https://acme.example.com/verify?loginToken=login-token-inv',
+    );
+
+    await controller.ecnSso(token, undefined, makeResponse());
+
+    expect(authService.findInvitationForSignInUp).toHaveBeenCalledWith({
+      currentWorkspace: workspace,
+      email: 'invited@example.com',
+    });
+    expect(authService.checkAccessForSignIn).not.toHaveBeenCalled();
+    expect(authService.signInUp).toHaveBeenCalledWith(
+      expect.objectContaining({
+        invitation,
+        authParams: { provider: AuthProviderEnum.SSO },
+      }),
     );
   });
 

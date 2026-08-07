@@ -190,6 +190,9 @@ export class EcnSsoController {
   ) {
     const email = payload.email.toLowerCase();
 
+    // Invitation lookup is still honored — a launcher who happens to hold a
+    // matching invitation gets the invitation-side effects (credits, email
+    // verified). Invitation absence must NOT block admit on this path.
     const invitation = await this.authService.findInvitationForSignInUp({
       currentWorkspace: workspace,
       email,
@@ -209,13 +212,14 @@ export class EcnSsoController {
       existingUser,
     );
 
-    await this.authService.checkAccessForSignIn({
-      userData,
-      invitation,
-      workspaceInviteHash: undefined,
-      workspace,
-    });
-
+    // The HMAC-verified ECN SSO JWT (iss/aud/exp/jti-checked) is the trust
+    // anchor for this workspace admit. Skip checkAccessForSignIn — it would
+    // otherwise reject a launcher whose Nest workspace membership hasn't been
+    // pre-seeded, which contradicts the Open-path product contract that "ECN
+    // session is SoT; one ECN session → CRM workspace." signInUp below routes
+    // through signInUpOnExistingWorkspace (or signInUpWithPersonalInvitation
+    // when an invitation is present), which idempotently binds the user to
+    // the workspace and creates the user record if new.
     const { workspace: signedInWorkspace, user } =
       await this.authService.signInUp({
         userData,
