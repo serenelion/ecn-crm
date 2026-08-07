@@ -14,10 +14,12 @@ import { GoogleAPIsAuthController } from 'src/engine/core-modules/auth/controlle
 import { GoogleAuthController } from 'src/engine/core-modules/auth/controllers/google-auth.controller';
 import { MicrosoftAPIsAuthController } from 'src/engine/core-modules/auth/controllers/microsoft-apis-auth.controller';
 import { MicrosoftAuthController } from 'src/engine/core-modules/auth/controllers/microsoft-auth.controller';
+import { EcnProvisionController } from 'src/engine/core-modules/auth/controllers/ecn-provision.controller';
 import { EcnSsoController } from 'src/engine/core-modules/auth/controllers/ecn-sso.controller';
 import { OAuthPropagatorController } from 'src/engine/core-modules/auth/controllers/oauth-propagator.controller';
 import { SSOAuthController } from 'src/engine/core-modules/auth/controllers/sso-auth.controller';
 import { AuthSsoService } from 'src/engine/core-modules/auth/services/auth-sso.service';
+import { EcnProvisionService } from 'src/engine/core-modules/auth/services/ecn-provision.service';
 import { EcnSsoReplayCacheService } from 'src/engine/core-modules/auth/services/ecn-sso-replay-cache.service';
 import { CreateCalendarChannelService } from 'src/engine/core-modules/auth/services/create-calendar-channel.service';
 import { CreateConnectedAccountService } from 'src/engine/core-modules/auth/services/create-connected-account.service';
@@ -64,6 +66,7 @@ import { UserWorkspaceModule } from 'src/engine/core-modules/user-workspace/user
 import { UserEntity } from 'src/engine/core-modules/user/user.entity';
 import { UserModule } from 'src/engine/core-modules/user/user.module';
 import { WorkspaceInvitationModule } from 'src/engine/core-modules/workspace-invitation/workspace-invitation.module';
+import { WorkspaceModule } from 'src/engine/core-modules/workspace/workspace.module';
 import { WorkspaceEntity } from 'src/engine/core-modules/workspace/workspace.entity';
 import { CalendarChannelEntity } from 'src/engine/metadata-modules/calendar-channel/entities/calendar-channel.entity';
 import { ConnectedAccountEntity } from 'src/engine/metadata-modules/connected-account/entities/connected-account.entity';
@@ -71,6 +74,7 @@ import { ConnectedAccountTokenEncryptionModule } from 'src/engine/metadata-modul
 import { MessageChannelEntity } from 'src/engine/metadata-modules/message-channel/entities/message-channel.entity';
 import { ObjectMetadataEntity } from 'src/engine/metadata-modules/object-metadata/object-metadata.entity';
 import { PermissionsModule } from 'src/engine/metadata-modules/permissions/permissions.module';
+import { UserRoleModule } from 'src/engine/metadata-modules/user-role/user-role.module';
 import { WorkspaceCacheModule } from 'src/engine/workspace-cache/workspace-cache.module';
 import { CalendarChannelSyncStatusService } from 'src/modules/calendar/common/services/calendar-channel-sync-status.service';
 import { ConnectedAccountModule } from 'src/modules/connected-account/connected-account.module';
@@ -136,6 +140,8 @@ import { JwtAuthStrategy } from './strategies/jwt.auth.strategy';
     ConnectedAccountTokenEncryptionModule,
     EmailAliasManagerModule,
     UserSessionModule,
+    WorkspaceModule,
+    UserRoleModule,
   ],
   controllers: [
     GoogleAuthController,
@@ -145,6 +151,7 @@ import { JwtAuthStrategy } from './strategies/jwt.auth.strategy';
     OAuthPropagatorController,
     SSOAuthController,
     EcnSsoController,
+    EcnProvisionController,
     ConnectionProviderOAuthController,
   ],
   providers: [
@@ -173,6 +180,7 @@ import { JwtAuthStrategy } from './strategies/jwt.auth.strategy';
     TransientTokenService,
     AuthSsoService,
     EcnSsoReplayCacheService,
+    EcnProvisionService,
   ],
   exports: [
     AccessTokenService,
