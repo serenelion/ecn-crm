@@ -209,12 +209,13 @@ export class EcnSsoController {
       existingUser,
     );
 
-    await this.authService.checkAccessForSignIn({
-      userData,
-      invitation,
-      workspaceInviteHash: undefined,
-      workspace,
-    });
+    // ECN admit: an HMAC-verified ECN SSO JWT is the source of truth for launch
+    // authority — ECN has already authenticated the member and asserted their
+    // right to `payload.workspace`. Deliberately skip
+    // `AuthService.checkAccessForSignIn` so Nest does not re-gate on a prior
+    // Nest invitation / approved domain / existing membership. `signInUp`
+    // creates the workspace membership under `AuthProviderEnum.SSO` via
+    // `addUserToWorkspaceIfUserNotInWorkspace`.
 
     const { workspace: signedInWorkspace, user } =
       await this.authService.signInUp({

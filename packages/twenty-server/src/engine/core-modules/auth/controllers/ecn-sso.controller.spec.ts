@@ -448,6 +448,63 @@ describe('EcnSsoController', () => {
     expect(replayCache.has('first-time-jti')).toBe(true);
   });
 
+  it('admits a new email into the workspace without prior invitation or membership (ECN admit)', async () => {
+    // Regression for CI-E4: previously Nest re-gated a valid ECN SSO JWT with
+    // AuthService.checkAccessForSignIn, which threw
+    // "User does not have access to this workspace" and redirected to
+    // /verify?sso_error=sso_failed for the very first launch. An HMAC-verified
+    // ECN JWT IS the authority — Nest must admit and let signInUp create the
+    // workspace membership under AuthProviderEnum.SSO.
+    const token = buildToken({
+      email: 'firsttimer@example.com',
+      name: 'First Timer',
+    });
+    const {
+      controller,
+      workspaceRepository,
+      userService,
+      authService,
+      loginTokenService,
+    } = makeController();
+
+    workspaceRepository.findOne.mockResolvedValue(workspace);
+    userService.findUserByEmail.mockResolvedValue(null);
+    authService.findInvitationForSignInUp.mockResolvedValue(undefined);
+    authService.formatUserDataPayload.mockReturnValue({
+      userData: {
+        type: 'newUser',
+        newUserPayload: { email: 'firsttimer@example.com' },
+      },
+    });
+    authService.signInUp.mockResolvedValue({
+      user: { email: 'firsttimer@example.com' },
+      workspace,
+    });
+    loginTokenService.generateLoginToken.mockResolvedValue({
+      token: 'login-token-admit',
+    });
+    authService.computeRedirectURI.mockReturnValue(
+      'https://acme.example.com/verify?loginToken=login-token-admit',
+    );
+
+    const res = makeResponse();
+
+    await controller.ecnSso(token, undefined, res);
+
+    expect(authService.checkAccessForSignIn).not.toHaveBeenCalled();
+    expect(authService.signInUp).toHaveBeenCalledWith(
+      expect.objectContaining({
+        workspace,
+        invitation: undefined,
+        authParams: { provider: AuthProviderEnum.SSO },
+        userData: expect.objectContaining({ type: 'newUser' }),
+      }),
+    );
+    expect(res.redirect).toHaveBeenCalledWith(
+      'https://acme.example.com/verify?loginToken=login-token-admit',
+    );
+  });
+
   it('redirects via GuardRedirectService when signInUp throws (workspace known)', async () => {
     const token = buildToken();
     const {
