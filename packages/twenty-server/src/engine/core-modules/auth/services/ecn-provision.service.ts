@@ -26,6 +26,10 @@ export type EcnProvisionStep =
   | 'onboarding';
 
 export class EcnProvisionError extends Error {
+  // Declared explicitly because the project targets lib.es2020, which does
+  // not include the ES2022 Error.cause property.
+  public readonly cause?: unknown;
+
   constructor(
     public readonly kind: 'subdomain_conflict' | 'provision_failed',
     public readonly step?: EcnProvisionStep,
